@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
+import TitleBar from './TitleBar';
+import NavBar from './NavBar';
+import FooterUpper from './FooterUpper';
+import FooterLower from './FooterLower';
 
 class BaseLayout extends Component {
   render() {
     return (
       <div>
-        <Nav>
+        <TitleBar />
+        <NavBar />
           {this.props.children}
-        </Nav>
+        <FooterUpper />
+        <FooterLower />
       </div>
     );
   }

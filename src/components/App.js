@@ -7,7 +7,10 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 //import Components
 import BaseLayout from './BaseLayout';
+import Board from './Board';
+import History from './History';
 import Home from './Home';
+import Links from './Links';
 import Museum from './Museum';
 import Membership from './Membership';
 
@@ -26,6 +29,9 @@ class App extends Component {
       <BrowserRouter>
         <BaseLayout>
           <Switch>
+            <Route path="/board" component={Board} />
+            <Route path="/history" component={History} />
+            <Route path="/links" component={Links} />
             <Route path="/museum" component={Museum} />
             <Route path="/membership" component={Membership} />
             <Route exact path="/" component={Home} />
