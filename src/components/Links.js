@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import linksHistorical from '../data/linksHistorical';
-import linksRailroad from '../data/linksRailroad';
-import linksTourist from '../data/linksTourist';
+import linksHistorical from '../data/links/linksHistorical';
+import linksRailroad from '../data/links/linksRailroad';
+import linksTourist from '../data/links/linksTourist';
+import LinkCard from './LinkCard';
 
 class Links extends Component {
   render() {
@@ -23,63 +24,23 @@ class Links extends Component {
       )
     });
     return (
-
-    <div className="container-fluid">
-      <h2 className="text-center page-title my-3">Railroad Related Links</h2>
-      <div className="row">
-      <div className="col-md-3"></div>
-      <div id="accordion" role="tablist" aria-multiselectable="true" className="col-md-6">
-        <div className="card">
-          <div className="card-header" role="tab" id="headingOne">
-            <h5 className="mb-0">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Historical Organizations & Museums
-              </a>
-            </h5>
-          </div>
-          <div id="collapseOne" className="collapse show" role="tabpanel" aria-labelledby="headingOne">
-            <div className="card-block">
-              <ul>
-                {historicalLinks}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-header" role="tab" id="headingTwo">
-            <h5 className="mb-0">
-              <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Railroad Operations & Rail Fan Opportunities
-              </a>
-            </h5>
-          </div>
-          <div id="collapseTwo" className="collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div className="card-block">
-              <ul>
-                {railroadLinks}
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-header" role="tab" id="headingThree">
-            <h5 className="mb-0">
-              <a className="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Tourist Railroads, Trolleys & Live Steamer Operations in Florida
-              </a>
-            </h5>
-          </div>
-          <div id="collapseThree" className="collapse" role="tabpanel" aria-labelledby="headingThree">
-            <div className="card-block">
-              <ul>
-                {touristLinks}
-              </ul>
-            </div>
+      <div className="container-fluid">
+        <h2 className="text-center page-title my-3">Railroad Related Links</h2>
+        <div className="row">
+          <div className="col-md-3"></div>
+          <div id="accordion" role="tablist" aria-multiselectable="true" className="col-md-6">
+            <LinkCard title={"Historical Organizations & Museums"} card={"One"} show={"show"} expanded="true"> 
+              {historicalLinks}
+            </LinkCard>
+            <LinkCard title={"Railroad Operations & Rail Fan Opportunities"} card={"Two"} show={""} expanded="false"> 
+              {railroadLinks}
+            </LinkCard>
+            <LinkCard title={"Tourist Railroads, Trolleys & Live Steamer Operations in Florida"} card={"Three"} show={""} expanded="false"> 
+              {touristLinks}
+            </LinkCard>
           </div>
         </div>
       </div>
-      </div>
-    </div>
     );
   }
 }
