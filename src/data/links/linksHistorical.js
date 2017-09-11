@@ -57,7 +57,7 @@ const linksHistoricalOrganizations = [
   {
     id: 12,
     name: "Winter Garden Heritage Foundation",
-    url: "http://www.wghf.org/ "
+    url: "http://www.wghf.org/"
   },
 ]
 

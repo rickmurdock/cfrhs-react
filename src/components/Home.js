@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CFRRMuseum from '../images/CFRRMuseum.jpg';
 
 class Home extends Component {
   render() {
@@ -20,7 +21,7 @@ class Home extends Component {
           </p>
         </div>
         <div className="col-md-8 text-center">
-          <img className="img-fluid img-depot" src={require('../images/CFRRMuseum.jpg')} alt="Central Florida Railroad Museum"/>
+          <img className="img-fluid img-depot" src={CFRRMuseum} alt="Central Florida Railroad Museum"/>
         </div>
       </div>
     </div>

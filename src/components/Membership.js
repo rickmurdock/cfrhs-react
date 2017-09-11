@@ -2,9 +2,10 @@ import React from 'react';
 
 const Membership = () => {
   return (
-    <div className="container">
-      <h1 className="text-center page-title my-3">Society Membership</h1>
-      <p>
+    <div className="col-md-12 membership-page">
+    <div className="container div-test">
+      <h2 className="text-center page-title-membership my-3">Society Membership</h2>
+      <p className="page-intro-membership">
         The Central Florida Railway Historical Society, Inc. invites you to become a member of a growing and dynamic rail-oriented organization.
         Anyone interested in becoming a member and getting involved in our organization is invited to join. Membership levels in the Central 
         Florida Railway Historical Society are as follows:
@@ -12,8 +13,8 @@ const Membership = () => {
       <div className="card-deck">
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Society Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Society Member</h5>
             </div>
             <div className="card-block">
               <p className="card-text">
@@ -22,14 +23,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$45/year</h6>
+              <h6 className="my-auto member-card-footer">$45/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Society Friend</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Society Friend</h5>
             </div>
             <div className="card-block">
               <p>
@@ -39,14 +40,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$25/year</h6>
+              <h6 className="my-auto member-card-footer">$25/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Society Student Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Society Student Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -55,14 +56,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$15/year</h6>
+              <h6 className="my-auto member-card-footer">$15/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Society Family Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Society Family Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -71,14 +72,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$10/year</h6>
+              <h6 className="my-auto member-card-footer">$10/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Society Century Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Society Century Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -88,14 +89,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$100/year</h6>
+              <h6 className="my-auto member-card-footer">$100/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Bronze Corporate Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Bronze Corporate Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -105,14 +106,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$250/year</h6>
+              <h6 className="my-auto member-card-footer">$250/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Gold Corporate Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Gold Corporate Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -122,14 +123,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$500/year</h6>
+              <h6 className="my-auto member-card-footer">$500/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Diamond Corporate Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Diamond Corporate Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -139,14 +140,14 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$750/year</h6>
+              <h6 className="my-auto member-card-footer">$750/year</h6>
             </div>
           </div>
         </div>
         <div className="col-md-6 col-lg-4 my-3">
           <div className="card h-100">
-            <div className="card-header text-center">
-              <h5 className="card-title my-auto">Platinum Corporate Member</h5>
+            <div className="card-header text-center member-card-header">
+              <h5 className="card-title my-auto member-card-title">Platinum Corporate Member</h5>
             </div>
             <div className="card-block">
               <p>
@@ -156,11 +157,15 @@ const Membership = () => {
               </p>
             </div>
             <div className="card-footer text-center">
-              <h6 className="my-auto">$1,000/year</h6>
+              <h6 className="my-auto member-card-footer">$1,000/year</h6>
             </div>
           </div>
         </div>
       </div>
+        <div className="membership-form">
+          <a href="https://drive.google.com/file/d/0BxsaKH9lyrNwYUNUR0NXX2VpdXc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o fa-2x pdf" aria-hidden="true"></i> CFRHS Membership Application</a>
+        </div>
+    </div>
     </div>
   );
 };

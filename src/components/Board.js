@@ -1,34 +1,39 @@
 import React from 'react';
+import contacts from '../data/contacts';
 
 const Board = () => {
+  let boardMembers = contacts.filter(contact => contact.board === true);
+  let boardMembers1 = boardMembers.slice(0,5);
+  let boardMembers2 = boardMembers.slice(5);
+  
+  let boardColumn1 = boardMembers1.map((board1) => {  
+    return (
+      <div key={board1.id}>
+        <h5>{board1.position}</h5>
+        <p>{board1.name}</p>
+      </div>
+    );
+  });
+
+  let boardColumn2 = boardMembers2.map((board2) => {  
+    return (
+      <div key={board2.id}>
+        <h5>{board2.position}</h5>
+        <p>{board2.name}</p>
+      </div>
+    );
+  });
+
   return (
     <div className="container-fluid">
       <h2 className="text-center page-title my-3">Board of Directors</h2>
       <div className="row">
         <div className="col-md-3"></div>
         <div className="col-md-4">
-          <h5>President</h5>
-          <p>Jerry Honetor</p>
-          <h5>VP - Membership & Programs</h5>
-          <p>Phil Piet</p>
-          <h5>VP - Education & Public Relations</h5>
-          <p>Irv Lipscomb</p>
-          <h5>Secretary	</h5>
-          <p>Joe Lehmann</p>
-          <h5>Assistant Secretary</h5>
-          <p>Jarrod Reynolds</p>
+          {boardColumn1}
         </div>
         <div className="col-md-3">
-          <h5>Treasurer</h5>
-          <p>David Rhea</p>
-          <h5>Assistant Treasurer</h5>
-          <p>Roger Wilson</p>
-          <h5>Museum Curator</h5>
-          <p>Ken Murdock</p>
-          <h5>Historian</h5>
-          <p>Phil Cross</p>
-          <h5>Immediate Past President</h5>
-          <p>Bill Dusenbury</p>
+          {boardColumn2}
         </div>
         <div className="col-md-2"></div>
       </div>
