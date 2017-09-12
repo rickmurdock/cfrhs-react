@@ -9,6 +9,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import BaseLayout from './BaseLayout';
 import Board from './Board';
 import Contact from './Contact';
+import Gallery from './Gallery';
 import History from './History';
 import Home from './Home';
 import Links from './Links';
@@ -33,6 +34,7 @@ class App extends Component {
           <Switch>
             <Route path="/board" component={Board} />
             <Route path="/contact" component={Contact} />
+            <Route path="/gallery" component={Gallery} />
             <Route path="/history" component={History} />
             <Route path="/links" component={Links} />
             <Route path="/museum" component={Museum} />

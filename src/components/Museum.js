@@ -23,7 +23,7 @@ class Museum extends Component {
               </div>
             </div>
             <div >
-              <iframe className="img-map" title="Map to museum" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.848628218677!2d-81.5829144!3d28.5633913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf760d33e403cdfc!2sCentral+Florida+Railroad+Museum!5e0!3m2!1sen!2sus!4v1504388469093" allowfullscreen></iframe>
+              <iframe className="img-map" title="Map to museum" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14016.848628218677!2d-81.5829144!3d28.5633913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf760d33e403cdfc!2sCentral+Florida+Railroad+Museum!5e0!3m2!1sen!2sus!4v1504388469093" allowFullScreen></iframe>
             </div>
           </div>
           <div className="col-md-6">

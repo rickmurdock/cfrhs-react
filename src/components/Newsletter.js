@@ -8,7 +8,7 @@ class Newsletter extends Component {
   render() {
     let news2017 = flatwheel2017.map((letter) => {
       return (
-        <div>
+        <div key={letter.id}>
           <a href={letter.url} target="_blank" rel="noopener">{letter.name}</a>
         </div>
       );
@@ -16,7 +16,7 @@ class Newsletter extends Component {
 
     let news2016 = flatwheel2016.map((letter) => {
       return (
-        <div>
+        <div key={letter.id}>
           <a href={letter.url} target="_blank" rel="noopener">{letter.name}</a>
         </div>
       );

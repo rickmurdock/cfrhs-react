@@ -8,19 +8,19 @@ class Links extends Component {
   render() {
     let historicalLinks = linksHistorical.map((historical) => {
       return (
-        <li><a key={historical.id} href={historical.url} target="_blank">{historical.name}</a></li>
+        <li key={historical.id}><a href={historical.url} target="_blank">{historical.name}</a></li>
       )
     });
 
     let railroadLinks = linksRailroad.map((railroad) => {
       return (
-        <li><a key={railroad.id} href={railroad.url} target="_blank">{railroad.name}</a></li>
+        <li key={railroad.id}><a href={railroad.url} target="_blank">{railroad.name}</a></li>
       )
     });
 
     let touristLinks = linksTourist.map((tourist) => {
       return (
-        <li><a key={tourist.id} href={tourist.url} target="_blank">{tourist.name}</a></li>
+        <li key={tourist.id}><a href={tourist.url} target="_blank">{tourist.name}</a></li>
       )
     });
     return (

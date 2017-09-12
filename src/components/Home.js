@@ -19,6 +19,9 @@ class Home extends Component {
             Held the second Monday of each month at 7:00 PM in the Central Florida Railroad Museum, 
             101 South Boyd Street, in downtown historic Winter Garden.
           </p>
+          <div className="calendar">
+            <a className="btn btn-primary btn-sm" role="button" aria-pressed="true" href="https://calendar.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7ud72iu9um3qrqeprt153j36qk%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FNew_York"><i className="fa fa-calendar" aria-hidden="true"></i>&nbsp; Events Calendar</a>
+          </div>
         </div>
         <div className="col-md-8 text-center">
           <img className="img-fluid img-depot" src={CFRRMuseum} alt="Central Florida Railroad Museum"/>
