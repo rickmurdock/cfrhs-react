@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterLower renders correctly 1`] = `
+<div
+  className="container-fluid footer-lower"
+>
+  <div
+    className="row navbar align-items-center "
+  >
+    <div>
+      <p
+        className="footer-text-lower my-auto"
+      >
+        © 2017 Central Florida Railway Historical Society, Inc.   
+        <i
+          aria-hidden="true"
+          className="fa fa-train fa"
+        />
+           Website Designed & Developed by 
+        <a
+          className="rick"
+          href="http://rickmurdock.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <b>
+            <i>
+              Rick Murdock
+            </i>
+          </b>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+`;
