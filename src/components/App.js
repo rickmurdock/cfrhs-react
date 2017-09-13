@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-// import logo from '../images/logo.svg';
 import '../styles/App.css';
 
-//import React Router
+// import React Router
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-//import Components
+// import Components
 import BaseLayout from './BaseLayout';
 import Board from './Board';
 import Contact from './Contact';
@@ -16,6 +15,7 @@ import Links from './Links';
 import Museum from './Museum';
 import Membership from './Membership';
 import Newsletter from './Newsletter';
+import Shop from './Shop';
 
 class App extends Component {
   render() {
@@ -40,6 +40,7 @@ class App extends Component {
             <Route path="/museum" component={Museum} />
             <Route path="/membership" component={Membership} />
             <Route path="/newsletter" component={Newsletter} />
+            <Route path="/shop" component={Shop} />
             <Route exact path="/" component={Home} />
           </Switch>
         </BaseLayout>

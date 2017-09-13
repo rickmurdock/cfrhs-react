@@ -34,7 +34,7 @@ class Gallery extends Component {
       <div className="container-fluid">
         <h2 className="text-center page-title my-3">Gallery</h2>
         <div className="row">
-        <div className="col-sm-0 col-md-2"></div>
+          <div className="col-sm-0 col-md-2"></div>
           <div className="col-sm-12 col-md-8">
             <div id="carouselControls" className="carousel slide" data-ride="carousel">
               <ol className="carousel-indicators">
@@ -43,14 +43,14 @@ class Gallery extends Component {
               <div className="carousel-inner" role="listbox">
                 {galleryItems}
               </div>
-                <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span className="sr-only">Next</span>
-                </a>
+              <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>

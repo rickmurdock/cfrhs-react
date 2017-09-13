@@ -27,10 +27,10 @@ class Newsletter extends Component {
         <h2 className="text-center page-title my-3">The Flatwheel Newsletter</h2>
         <div className="card-deck">
           <NewsletterCard year={2017}>
-                  {news2017}
+            {news2017}
           </NewsletterCard>
           <NewsletterCard year={2016}>
-                  {news2016}
+            {news2016}
           </NewsletterCard>
         </div>
       </div>

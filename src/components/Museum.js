@@ -14,7 +14,7 @@ class Museum extends Component {
               <img className="card-img-top img-station" src={StationResized} alt="Central Florida Railroad Museum Depot" />
               <div className="card-block">
                 <h5>Museum Hours:</h5>
-                <p>Daily from 1:00 PM - 5:00 PM</p>
+                <p>Daily from 1:00 PM - 5:00 PM<br/><sup>(Closed Select Holidays)</sup></p>
                 <h5>Admission:</h5>
                 <p>Free</p>
                 <h5>Location:</h5>
