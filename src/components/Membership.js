@@ -1,173 +1,41 @@
 import React from 'react';
+import membership from '../data/membership';
 
 const Membership = () => {
-  return (
-    <div className="col-md-12 membership-page">
-    <div className="container div-test">
-      <h2 className="text-center page-title-membership my-3">Society Membership</h2>
-      <p className="page-intro-membership">
-        The Central Florida Railway Historical Society, Inc. invites you to become a member of a growing and dynamic rail-oriented organization.
-        Anyone interested in becoming a member and getting involved in our organization is invited to join. Membership levels in the Central 
-        Florida Railway Historical Society are as follows:
-      </p>
-      <div className="card-deck">
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Society Member</h5>
-            </div>
-            <div className="card-block">
-              <p className="card-text">
-                Any person of good character, eighteen (18) years of age or older, and interested in any/all aspects of railroading and the Purpose 
-                and  Mission Statement of this Society shall be eligible for membership. Society members have the right to vote and hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$45/year</h6>
-            </div>
+    return (
+      <div className="col-md-12 membership-page">
+        <div className="container membership-container">
+          <h2 className="text-center page-title-membership my-3">Society Membership</h2>
+          <p className="page-intro-membership">
+            The Central Florida Railway Historical Society, Inc. invites you to become a member of a growing and dynamic rail-oriented organization.
+            Anyone interested in becoming a member and getting involved in our organization is invited to join. Membership levels in the Central 
+            Florida Railway Historical Society are as follows:
+          </p>
+          <div className="card-deck">
+            { membership.map((level) => {
+              return (
+                <div key={level.id} className="col-md-6 col-lg-4 my-3">
+                  <div className="card h-100">
+                    <div className="card-header text-center member-card-header">
+                      <h5 className="card-title my-auto member-card-title">{level.level}</h5>
+                    </div>
+                    <div className="card-block">
+                      <p className="card-text">{level.description}</p>
+                    </div>
+                    <div className="card-footer text-center">
+                      <h6 className="my-auto member-card-footer">{level.cost}</h6>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Society Friend</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any person of good character, eighteen (18) years of age or older, interested in any/all aspects of railroading and the Purpose 
-                and Mission Statement of this Society, and does not wish to have the right to vote or hold office in the Society, shall be eligible 
-                for Society Friend membership.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$25/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Society Student Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any person under the age of eighteen (18) years old interested in any/all aspects of railroading and the Purpose and Mission
-                Statement of this Society shall be eligible for membership, but will not have the right to vote or hold office in the Society.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$15/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Society Family Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Society Family membership shall be available for up to six (6) family members of a Society Member. Family members will not have 
-                the right to vote or hold office in the Society.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$10/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Society Century Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any person of good character, eighteen (18) years of age or older, and interested in any/all aspects of railroading and the Purpose
-                and Mission Statement of this Society shall be eligible for Society Century Membership.  Society Century Members have the right to 
-                vote and hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$100/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Bronze Corporate Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any corporation interested in supporting any/all aspects of railroading and the Purpose and Mission Statement of this Society at 
-                the Bronze Level shall be eligible for Corporate Membership. Dues for Corporate Members shall be determined by the Society’s 
-                Board of Directors. Corporate Members will not have the right to vote or hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$250/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Gold Corporate Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any corporation interested in supporting any/all aspects of railroading and the Purpose and Mission Statement of this Society at 
-                the Bronze Level shall be eligible for Corporate Membership. Dues for Corporate Members shall be determined by the Society’s Board 
-                Directors. Corporate Members will not have the right to vote or hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$500/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Diamond Corporate Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any corporation interested in supporting any/all aspects of railroading and the Purpose and Mission Statement of this Society at the 
-                Bronze Level shall be eligible for Corporate Membership. Dues for Corporate Members shall be determined by the Society’s Board of 
-                Directors. Corporate Members will not have the right to vote or hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$750/year</h6>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-6 col-lg-4 my-3">
-          <div className="card h-100">
-            <div className="card-header text-center member-card-header">
-              <h5 className="card-title my-auto member-card-title">Platinum Corporate Member</h5>
-            </div>
-            <div className="card-block">
-              <p>
-                Any corporation interested in supporting any/all aspects of railroading and the Purpose and Mission Statement of this Society at the
-                Bronze Level shall be eligible for Corporate Membership. Dues for Corporate Members shall be determined by the Society’s Board of 
-                Directors. Corporate Members will not have the right to vote or hold office.
-              </p>
-            </div>
-            <div className="card-footer text-center">
-              <h6 className="my-auto member-card-footer">$1,000/year</h6>
-            </div>
+          <div className="membership-form">
+            <a href="https://drive.google.com/file/d/0BxsaKH9lyrNwYUNUR0NXX2VpdXc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o fa-2x pdf" aria-hidden="true"></i>&nbsp;CFRHS Membership Application</a>
           </div>
         </div>
       </div>
-        <div className="membership-form">
-          <a href="https://drive.google.com/file/d/0BxsaKH9lyrNwYUNUR0NXX2VpdXc/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o fa-2x pdf" aria-hidden="true"></i> CFRHS Membership Application</a>
-        </div>
-    </div>
-    </div>
-  );
-};
+    );
+  }
 
 export default Membership;
