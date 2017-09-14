@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkCard renders correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-header"
+    id="headingundefined"
+    role="tab"
+  >
+    <h5
+      className="mb-0"
+    >
+      <a
+        aria-controls="collapseundefined"
+        aria-expanded={undefined}
+        data-parent="#accordion"
+        data-toggle="collapse"
+        href="#collapseundefined"
+      />
+    </h5>
+  </div>
+  <div
+    aria-labelledby="headingundefined"
+    className="collapse undefined"
+    id="collapseundefined"
+    role="tabpanel"
+  >
+    <div
+      className="card-block"
+    >
+      <ul />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <h2
+    className="text-center page-title my-3"
+  >
+    Board of Directors
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-3"
+    />
+    <div
+      className="col-md-4"
+    >
+      <div>
+        <h5>
+          President
+        </h5>
+        <p>
+          Jerry Honetor
+        </p>
+      </div>
+      <div>
+        <h5>
+          Vice President - Membership & Programs
+        </h5>
+        <p>
+          Phil Piet
+        </p>
+      </div>
+      <div>
+        <h5>
+          Vice President - Education & Public Relations
+        </h5>
+        <p>
+          Irv Lipscomb
+        </p>
+      </div>
+      <div>
+        <h5>
+          Secretary
+        </h5>
+        <p>
+          Joe Lehmann, Jr.
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Secretary
+        </h5>
+        <p>
+          Jarrod Reynolds
+        </p>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div>
+        <h5>
+          Treasurer
+        </h5>
+        <p>
+          David Rhea
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Treasurer
+        </h5>
+        <p>
+          Roger Wilson
+        </p>
+      </div>
+      <div>
+        <h5>
+          Museum Curator
+        </h5>
+        <p>
+          Ken Murdock
+        </p>
+      </div>
+      <div>
+        <h5>
+          Historian
+        </h5>
+        <p>
+          Phil Cross
+        </p>
+      </div>
+      <div>
+        <h5>
+          Immediate Past President
+        </h5>
+        <p>
+          Bill Dusenbury
+        </p>
+      </div>
+    </div>
+    <div
+      className="col-md-2"
+    />
+  </div>
+</div>
+`;
