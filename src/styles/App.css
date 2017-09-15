@@ -39,7 +39,7 @@
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font: 1.1em 'Open Sans', sans-serif;
 }
 
 .title {
@@ -87,6 +87,11 @@ nav {
 
 .img-depot {
   width: 800px;
+}
+
+.calendar {
+  padding: 30px;
+  text-align: center;
 }
 
 .img-station,
@@ -151,7 +156,8 @@ nav {
 .links-page {
   height: 120vh;
   background-size: cover;
-  background-image: url('../images/RRMuseumArtistic.jpg');
+  /*background-image: url('../images/RRMuseumArtistic.jpg');*/
+  background-image: url('../images/DepotTest2.png');
   background-position: center;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
@@ -263,7 +269,6 @@ nav {
   max-width: none;*/
   background: cover;
   height: 600px;
-  
   /*margin-top: 0;
   margin-bottom: 0;*/
   margin: auto;
@@ -271,11 +276,6 @@ nav {
 
 .carousel-caption p {
   text-shadow: 2px 2px 4px #000000;
-}
-
-.calendar {
-  padding: 30px;
-  text-align: center;
 }
 
 .store-item {

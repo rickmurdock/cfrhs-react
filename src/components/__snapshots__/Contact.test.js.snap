@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <h2
+    className="text-center page-title my-3"
+  >
+    Contact Us
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-3"
+    >
+      <div
+        className="card"
+        id="left"
+      >
+        <div
+          className="card-block"
+        >
+          <h5>
+            Central Florida Railway Historical Society, Inc.
+          </h5>
+          <p>
+            101 S. Boyd Street
+            <br />
+            Winter Garden, FL 34787
+          </p>
+          <p>
+            P.O. Box 770567
+            <br />
+            Winter Garden, FL 34777-0567
+          </p>
+          <p>
+            <i
+              aria-hidden="true"
+              className="fa fa-phone"
+            />
+             (407) 656-0559
+          </p>
+          <p>
+            <i
+              aria-hidden="true"
+              className="fa fa-envelope"
+            />
+             
+            <a
+              href="mailto:info@cfrhs.org?subject=Email%20for%20information%20from%20www.cfrhs.org"
+            >
+              info@cfrhs.org
+            </a>
+          </p>
+        </div>
+        <img
+          alt="Central Florida Railroad Museum Depot"
+          className="card-img-top img-station"
+          src="StationResized.png"
+        />
+      </div>
+    </div>
+    <div
+      className="col-md-4"
+    >
+      <div>
+        <h5>
+          President
+        </h5>
+        <p>
+          Jerry Honetor
+          <br />
+          <a
+            href="mailto:president@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            president@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Vice President - Membership & Programs
+        </h5>
+        <p>
+          Phil Piet
+          <br />
+          <a
+            href="mailto:vpmembership@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            vpmembership@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Vice President - Education & Public Relations
+        </h5>
+        <p>
+          Irv Lipscomb
+          <br />
+          <a
+            href="mailto:vpeducation@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            vpeducation@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Secretary
+        </h5>
+        <p>
+          Joe Lehmann, Jr.
+          <br />
+          <a
+            href="mailto:secretary@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            secretary@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Secretary
+        </h5>
+        <p>
+          Jarrod Reynolds
+          <br />
+          <a
+            href="mailto:asstsecretary@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            asstsecretary@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Treasurer
+        </h5>
+        <p>
+          David Rhea
+          <br />
+          <a
+            href="mailto:treasurer@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            treasurer@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Treasurer
+        </h5>
+        <p>
+          Roger Wilson
+          <br />
+          <a
+            href="mailto:assttreasurer@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            assttreasurer@cfrhs.org
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      className="col-md-3"
+    >
+      <div>
+        <h5>
+          Museum Curator
+        </h5>
+        <p>
+          Ken Murdock
+          <br />
+          <a
+            href="mailto:curator@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            curator@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Museum Curator
+        </h5>
+        <p>
+          Al Sharp
+          <br />
+          <a
+            href="mailto:asstcurator@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            asstcurator@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Assistant Museum Curator
+        </h5>
+        <p>
+          Jarrod Reynolds
+          <br />
+          <a
+            href="mailto:asstcurator2@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            asstcurator2@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Historian
+        </h5>
+        <p>
+          Phil Cross
+          <br />
+          <a
+            href="mailto:historian@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            historian@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Immediate Past President
+        </h5>
+        <p>
+          Bill Dusenbury
+          <br />
+          <a
+            href="mailto:pastpresident@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            pastpresident@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Flatwheel Editor
+        </h5>
+        <p>
+          Phil Cross
+          <br />
+          <a
+            href="mailto:editor@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            editor@cfrhs.org
+          </a>
+        </p>
+      </div>
+      <div>
+        <h5>
+          Webmaster
+        </h5>
+        <p>
+          Joseph Lehmann, Jr.
+          <br />
+          <a
+            href="mailto:webmaster@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
+          >
+            webmaster@cfrhs.org
+          </a>
+        </p>
+      </div>
+    </div>
+    <div
+      className="col-md-2"
+    />
+  </div>
+</div>
+`;

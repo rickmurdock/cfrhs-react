@@ -6,18 +6,18 @@ const Board = () => {
   let boardMembers1 = boardMembers.slice(0,5);
   let boardMembers2 = boardMembers.slice(5);
   
-  let boardColumn1 = boardMembers1.map((board1) => {  
+  let boardColumn1 = boardMembers1.map((board1, index) => {  
     return (
-      <div key={board1.id}>
+      <div key={index}>
         <h5>{board1.position}</h5>
         <p>{board1.name}</p>
       </div>
     );
   });
 
-  let boardColumn2 = boardMembers2.map((board2) => {  
+  let boardColumn2 = boardMembers2.map((board2, index) => {  
     return (
-      <div key={board2.id}>
+      <div key={index}>
         <h5>{board2.position}</h5>
         <p>{board2.name}</p>
       </div>

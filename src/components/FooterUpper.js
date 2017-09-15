@@ -17,10 +17,10 @@ const FooterUpper = () => {
             Winter Garden, FL 34777-0567
           </p>
           <p className="footer-text">
-            (407) 656-0559
+            <i className="fa fa-phone" aria-hidden="true"></i>&nbsp;(407) 656-0559
           </p>
           <p className="footer-text">
-            <a href="mailto:info@cfrhs.org?subject=Email%20for%20information%20from%20www.cfrhs.org">info@cfrhs.org</a> 
+            <a href="mailto:info@cfrhs.org?subject=Email%20for%20information%20from%20www.cfrhs.org"><i className="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;info@cfrhs.org</a> 
           </p>
           <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i className="fa fa-facebook-official fa-2x" aria-hidden="false"></i></a>
         </div>

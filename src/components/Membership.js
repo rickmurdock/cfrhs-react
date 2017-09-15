@@ -12,9 +12,9 @@ const Membership = () => {
             Florida Railway Historical Society are as follows:
           </p>
           <div className="card-deck">
-            { membership.map((level) => {
+            { membership.map((level, index) => {
               return (
-                <div key={level.id} className="col-md-6 col-lg-4 my-3">
+                <div key={index} className="col-md-6 col-lg-4 my-3">
                   <div className="card h-100">
                     <div className="card-header text-center member-card-header">
                       <h5 className="card-title my-auto member-card-title">{level.level}</h5>

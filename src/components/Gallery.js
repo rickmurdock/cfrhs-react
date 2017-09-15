@@ -7,21 +7,21 @@ class Gallery extends Component {
     let activeItem = "active";
     let slideTo = -1;
 
-    let slideTos = gallery.map((slide) => {
+    let slideTos = gallery.map((slide, index) => {
       slideTo += 1;
       firstItem ? firstItem = false : activeItem = "";
       return (
-        <li key={slide.id} data-target="#carouselControls" data-slide-to={slideTo} className={activeItem}></li>
+        <li key={index} data-target="#carouselControls" data-slide-to={slideTo} className={activeItem}></li>
       );
     });
 
     firstItem = true;
     activeItem = "active";
 
-    let galleryItems = gallery.map((item) => {
+    let galleryItems = gallery.map((item, index) => {
       firstItem ? firstItem = false : activeItem = "";
       return (
-        <div key={item.id} className={"carousel-item " + activeItem}>            
+        <div key={index} className={"carousel-item " + activeItem}>            
           <img className="figure-img d-block img-fluid" src={require('../images/' + item.imageName)} alt={item.caption} />
             <div className="carousel-caption d-none d-md-block">
               <p>{item.caption}</p>

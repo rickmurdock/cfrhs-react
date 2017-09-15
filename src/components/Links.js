@@ -6,21 +6,21 @@ import LinkCard from './LinkCard';
 
 class Links extends Component {
   render() {
-    let historicalLinks = linksHistorical.map((historical) => {
+    let historicalLinks = linksHistorical.map((historical, index) => {
       return (
-        <li key={historical.id}><a href={historical.url} target="_blank">{historical.name}</a></li>
+        <li key={index}><a href={historical.url} target="_blank">{historical.name}</a></li>
       )
     });
 
-    let railroadLinks = linksRailroad.map((railroad) => {
+    let railroadLinks = linksRailroad.map((railroad, index) => {
       return (
-        <li key={railroad.id}><a href={railroad.url} target="_blank">{railroad.name}</a></li>
+        <li key={index}><a href={railroad.url} target="_blank">{railroad.name}</a></li>
       )
     });
 
-    let touristLinks = linksTourist.map((tourist) => {
+    let touristLinks = linksTourist.map((tourist, index) => {
       return (
-        <li key={tourist.id}><a href={tourist.url} target="_blank">{tourist.name}</a></li>
+        <li key={index}><a href={tourist.url} target="_blank">{tourist.name}</a></li>
       )
     });
     return (
