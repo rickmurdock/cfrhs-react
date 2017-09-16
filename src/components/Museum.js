@@ -16,7 +16,7 @@ class Museum extends Component {
                 <h5>Museum Hours:</h5>
                 <p>Daily from 1:00 PM - 5:00 PM<br/><sup>(Closed Select Holidays)</sup></p>
                 <h5>Admission:</h5>
-                <p>Free</p>
+                <p className="free">Free</p>
                 <h5>Location:</h5>
                 <p>101 S. Boyd Street<br/>Winter Garden, FL 34787</p>
                 <p><i className="fa fa-phone" aria-hidden="true"></i>&nbsp;(407) 656-0559</p>

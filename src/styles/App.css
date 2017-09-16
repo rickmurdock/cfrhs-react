@@ -1,29 +1,3 @@
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}*/
-
-/*@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
-
-/*---------------------------------*/
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -38,7 +12,8 @@
   background: transparent;
 }
 
-p {
+p, 
+.order-link {
   font: 1.1em 'Open Sans', sans-serif;
 }
 
@@ -121,6 +96,7 @@ nav {
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 }
+
 .page-title,
 .page-title-membership {
   font: 600 45px 'Open Sans', sans-serif;
@@ -134,11 +110,12 @@ nav {
   background-color: white;
   margin-left: 15px !important;
   margin-right: 15px !important;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
 .page-intro-membership {
   padding: 0 20px 20px 20px;
+  border-radius: 0 0 5px 5px;
 }
 
 .membership-form {
@@ -146,6 +123,7 @@ nav {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 0;
+  border-radius: 5px;
 }
 
 .membership-container {
@@ -164,7 +142,6 @@ nav {
 }
 
 .membership-page {
-  /*height: 120vh;*/
   width: 100%;
   background-size: cover;
   background-image: url('../images/T&GPicnic.jpg');
@@ -172,6 +149,7 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .pdf {
   color: red;
 }
@@ -281,3 +259,34 @@ nav {
 .store-item {
   padding: 20px;
 }
+
+.hr-store {
+  background-color: #954838;
+  margin: 20px auto;
+}
+
+.store-image img {
+  box-shadow: 5px 5px 5px #888888;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+     -moz-transition: all 1s ease; /* Firefox */
+      -ms-transition: all 1s ease; /* IE 9 */
+       -o-transition: all 1s ease; /* Opera */
+          transition: all 1s ease;
+}
+
+.store-image:hover img {
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+     -moz-transform:scale(1.25); /* Firefox */
+      -ms-transform:scale(1.25); /* IE 9 */
+       -o-transform:scale(1.25); /* Opera */
+          transform:scale(1.25);
+}
+
+.newsletter-li {
+  list-style: none;
+}
+
+/*.free {
+  text-shadow: 2px 2px 8px red;
+  text-shadow: 0 0 3px darkorange;
+}*/
