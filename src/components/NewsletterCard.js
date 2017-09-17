@@ -14,8 +14,8 @@ const NewsletterCard = (props) => {
   return (
     <div className="col-md-6 col-lg-4 my-3">
       <div className="card h-100">
-        <div className="card-header text-center">
-          <h5 className="card-title my-auto">{props.year}</h5>
+        <div className="card-header text-center newsletter-card-header">
+          <h5 className="card-title my-auto newsletter-card-title">{props.year}</h5>
         </div>
         <div className="card-block">
           <ul>

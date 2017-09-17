@@ -13,7 +13,9 @@
 }
 
 p, 
-.order-link {
+.order-link,
+.links-li,
+.newsletter-li {
   font: 1.1em 'Open Sans', sans-serif;
 }
 
@@ -98,7 +100,8 @@ nav {
 }
 
 .page-title,
-.page-title-membership {
+.page-title-membership,
+.page-title-newsletter {
   font: 600 45px 'Open Sans', sans-serif;
   padding: 12px;
   margin: 0 !important;
@@ -106,14 +109,17 @@ nav {
 
 .page-title-membership,
 .page-intro-membership,
-.membership-form {
+.membership-form, 
+.page-title-newsletter,
+.page-intro-newsletter {
   background-color: white;
   margin-left: 15px !important;
   margin-right: 15px !important;
   border-radius: 5px 5px 0 0;
 }
 
-.page-intro-membership {
+.page-intro-membership,
+.page-intro-newsletter {
   padding: 0 20px 20px 20px;
   border-radius: 0 0 5px 5px;
 }
@@ -126,7 +132,8 @@ nav {
   border-radius: 5px;
 }
 
-.membership-container {
+.membership-container,
+.newsletter-container {
   opacity: .9;
   padding-bottom: 30px;
 }
@@ -149,6 +156,16 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.newsletter-page {
+  width: 100%;
+  background-size: cover;
+  background-image: url('../images/OrangeBeltRR.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 
 .pdf {
   color: red;
@@ -210,13 +227,16 @@ nav {
   color: inherit;
 }
 
-.member-card-header {
+.member-card-header,
+.newsletter-card-header {
   background-color: #954838;
   padding: 15px;
   color: white;
   opacity: 1 !important;
 }
-.member-card-title {
+
+.member-card-title,
+.newsletter-card-title {
   color: white;
   font-size: 1.5em;
 }
@@ -282,6 +302,7 @@ nav {
           transform:scale(1.25);
 }
 
+.links-li,
 .newsletter-li {
   list-style: none;
 }
