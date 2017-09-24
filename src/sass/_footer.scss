@@ -1,0 +1,45 @@
+.footer-upper {
+  background-color: $footer-color;
+  padding-top: 20px;
+}
+
+.footer-text {
+  font-family: $font-stack-condensed;
+}
+
+.footer-text,
+.footer-text a:link,
+.footer-text a:visited {
+  color: $footer-upper-text-color;
+}
+
+.fa-facebook-official {
+  color: $facebook-color;
+}
+
+.fa-facebook-official:hover {
+  @include transform(1.2);
+}
+
+.logo-wghf {
+  width: 190px;
+}
+
+.logo-hra {
+  width: 210px;
+}
+
+.footer-lower {
+  color: $footer-lower-text-color;
+  background-color: $brand-color;
+  padding: 10px;
+}
+
+.footer-text-lower {
+  font-family: $font-stack;
+}
+
+.rick,
+.rick:hover {
+  color: inherit;
+}

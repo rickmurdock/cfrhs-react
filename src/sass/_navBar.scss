@@ -1,0 +1,40 @@
+nav {
+  background-color: $brand-color;
+  box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+.nav-link,
+.dropdown-item,
+.dropdown-toggle {
+  color: white;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: lightgray;
+  background-color: $brand-color;
+  @include transform(0.95);
+}
+
+// .dropdown-item {
+//   // color: white;
+//   // background-color: $brand-color; 
+// }
+
+.dropdown-menu {
+  background-color: $brand-color;
+}
+
+.selected {
+  color: $navbar-selected-color !important;
+}
+
+.fa-facebook,
+.fa-bars {
+  color: white;
+  padding: 4px;
+}
+
+.fa-facebook:hover {
+  @include transform(1.3);
+}
