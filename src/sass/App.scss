@@ -15,6 +15,7 @@ $font-stack-condensed: 'Open Sans Condensed', sans-serif;
 @import 'titleBar';
 @import 'navBar';
 @import 'home';
+@import 'store';
 @import 'footer';
 
 p, 
@@ -163,24 +164,6 @@ p,
 
 .carousel-caption p {
   text-shadow: 2px 2px 4px #000000;
-}
-
-.store-item {
-  padding: 20px;
-}
-
-.hr-store {
-  background-color: $brand-color;
-  margin: 20px auto;
-}
-
-.store-image img {
-  box-shadow: 5px 5px 5px #888888;
-  @include transition();
-}
-
-.store-image:hover img {
-  @include transform(1.25);
 }
 
 .links-li {

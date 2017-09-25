@@ -12,19 +12,17 @@
   background: transparent;
 }
 
-p, 
-.order-link,
-.links-li,
-.newsletter-li {
-  font: 1.1em 'Open Sans', sans-serif;
-}
-
 .title {
   color: #954838;
   text-align: center;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 700;
   text-shadow: 2px 2px 4px lightgray;
+}
+
+nav {
+  background-color: #954838;
+  box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
 }
 
 .nav-link,
@@ -37,29 +35,31 @@ p,
 .dropdown-item:hover {
   color: lightgray;
   background-color: #954838;
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
   transform: scale(0.95);
-}
-
-.dropdown-item {
-  color: lightgray;
-  background-color: #954838; 
 }
 
 .dropdown-menu {
   background-color: #954838;
 }
 
-nav {
-  box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
-  background-color: #954838;
-}
-
-/*.nav-link:hover {
-  transform: scale(1.1);
-}*/
-
 .selected {
   color: yellow !important;
+}
+
+.fa-facebook,
+.fa-bars {
+  color: white;
+  padding: 4px;
+}
+
+.fa-facebook:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .img-depot {
@@ -69,6 +69,85 @@ nav {
 .calendar {
   padding: 30px;
   text-align: center;
+}
+
+.store-item {
+  padding: 20px;
+}
+
+.hr-store {
+  background-color: #954838;
+  margin: 20px auto;
+}
+
+.store-image img {
+  box-shadow: 5px 5px 5px #888888;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.store-image:hover img {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.footer-upper {
+  background-color: lightgray;
+  padding-top: 20px;
+}
+
+.footer-text {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.footer-text,
+.footer-text a:link,
+.footer-text a:visited {
+  color: black;
+}
+
+.fa-facebook-official {
+  color: #3B5998;
+}
+
+.fa-facebook-official:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.logo-wghf {
+  width: 190px;
+}
+
+.logo-hra {
+  width: 210px;
+}
+
+.footer-lower {
+  color: white;
+  background-color: #954838;
+  padding: 10px;
+}
+
+.footer-text-lower {
+  font-family: "Open Sans", sans-serif;
+}
+
+.rick,
+.rick:hover {
+  color: inherit;
+}
+
+p,
+.order-link,
+.links-li {
+  font: 1.1em "Open Sans", sans-serif;
 }
 
 .img-station,
@@ -87,13 +166,13 @@ nav {
   height: 300px;
   width: 100%;
   position: relative;
-  margin: 50px 0 30px;
+  margin: 30px 0;
 }
 
 .museum-history-title {
-  font: 600 75px 'Open Sans', sans-serif;
+  font: 600 75px "Open Sans", sans-serif;
   color: white;
-  position:relative;
+  position: relative;
   top: 90px;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
@@ -102,14 +181,14 @@ nav {
 .page-title,
 .page-title-membership,
 .page-title-newsletter {
-  font: 600 45px 'Open Sans', sans-serif;
+  font: 600 45px "Open Sans", sans-serif;
   padding: 12px;
   margin: 0 !important;
 }
 
 .page-title-membership,
 .page-intro-membership,
-.membership-form, 
+.membership-form,
 .page-title-newsletter,
 .page-intro-newsletter {
   background-color: white;
@@ -142,16 +221,15 @@ nav {
   height: 120vh;
   background-size: cover;
   /*background-image: url('../images/RRMuseumArtistic.jpg');*/
-  background-image: url('../images/DepotTest2.png');
+  background-image: url("../images/DepotTest2.png");
   background-position: center;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
 }
 
 .membership-page {
   width: 100%;
   background-size: cover;
-  background-image: url('../images/T&GPicnic.jpg');
+  background-image: url("../images/T&GPicnic.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -160,83 +238,24 @@ nav {
 .newsletter-page {
   width: 100%;
   background-size: cover;
-  background-image: url('../images/OrangeBeltRR.jpg');
+  background-image: url("../images/OrangeBeltRR.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-
 .pdf {
   color: red;
 }
 
-.footer-upper {
-  background-color: lightgray;
-  padding-top: 20px;
-}
-
-.footer-lower {
-  color: white;
-  background-color: #954838;
-  padding: 10px;
-}
-
-.footer-text {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.footer-text,
-.footer-text a:link,
-.footer-text a:visited {
-  color: black;
-}
-
-.fa-facebook,
-.fa-bars {
-  color: white;
-  padding: 4px;
-}
-
-.fa-facebook:hover {
-  transform: scale(1.4);
-}
-
-.fa-facebook-official {
-  color: #3B5998;
-}
-
-.fa-facebook-official:hover {
-  transform: scale(1.2);
-}
-
-.logo-wghf {
-  width: 190px;
-}
-
-.logo-hra {
-  width: 210px;
-}
-
-.footer-text-lower {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.rick,
-.rick:hover {
-  color: inherit;
-}
-
-.member-card-header,
-.newsletter-card-header {
+.member-card-header {
   background-color: #954838;
   padding: 15px;
   color: white;
   opacity: 1 !important;
 }
 
-.member-card-title,
-.newsletter-card-title {
+.member-card-title {
   color: white;
   font-size: 1.5em;
 }
@@ -247,8 +266,6 @@ nav {
 }
 
 #carouselControls {
-  /*width: 400px;*/
-  /*height: 400px;*/
   background-color: black;
 }
 
@@ -257,13 +274,11 @@ nav {
   max-height: 700px;
   width: 100%;
 }*/
-
 .carousel-item img {
   /*position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
   max-width: none;*/
   background: cover;
   height: 600px;
@@ -276,38 +291,30 @@ nav {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.store-item {
-  padding: 20px;
-}
-
-.hr-store {
-  background-color: #954838;
-  margin: 20px auto;
-}
-
-.store-image img {
-  box-shadow: 5px 5px 5px #888888;
-  -webkit-transition: all 1s ease; /* Safari and Chrome */
-     -moz-transition: all 1s ease; /* Firefox */
-      -ms-transition: all 1s ease; /* IE 9 */
-       -o-transition: all 1s ease; /* Opera */
-          transition: all 1s ease;
-}
-
-.store-image:hover img {
-  -webkit-transform:scale(1.25); /* Safari and Chrome */
-     -moz-transform:scale(1.25); /* Firefox */
-      -ms-transform:scale(1.25); /* IE 9 */
-       -o-transform:scale(1.25); /* Opera */
-          transform:scale(1.25);
-}
-
-.links-li,
-.newsletter-li {
+.links-li {
   list-style: none;
 }
 
-/*.free {
-  text-shadow: 2px 2px 8px red;
-  text-shadow: 0 0 3px darkorange;
-}*/
+.flatwheel-link {
+  display: block;
+  padding: 40px;
+}
+
+.drive-img {
+  width: 30px;
+}
+
+.img-caboose {
+  padding: 20px;
+}
+
+.img-plaque {
+  padding: 20px 30px 20px 0;
+}
+
+.img-headlight {
+  width: 80%;
+}
+ 
+
+ /*# sourceMappingURL= App.css.map */

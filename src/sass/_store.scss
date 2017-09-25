@@ -1,0 +1,17 @@
+.store-item {
+  padding: 20px;
+}
+
+.hr-store {
+  background-color: $brand-color;
+  margin: 20px auto;
+}
+
+.store-image img {
+  box-shadow: 5px 5px 5px #888888;
+  @include transition();
+}
+
+.store-image:hover img {
+  @include transform(1.25);
+}
