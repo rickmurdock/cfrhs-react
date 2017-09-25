@@ -27,7 +27,7 @@ const Board = () => {
   return (
     <div className="container-fluid">
       <h2 className="text-center page-title my-3">Board of Directors</h2>
-      <div className="row">
+      <div className="row my-3">
         <div className="col-md-3"></div>
         <div className="col-md-4">
           {boardColumn1}

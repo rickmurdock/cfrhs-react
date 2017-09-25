@@ -14,7 +14,7 @@ const NavBar = () => {
           <div className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <NavLink activeClassName="selected" className="dropdown-item" to="/history">History</NavLink>
+              <NavLink activeClassName="selected" className="dropdown-item" to="/history">Our History</NavLink>
               <NavLink activeClassName="selected" className="dropdown-item" to="/board">Board of Directors</NavLink>
               <NavLink activeClassName="selected" className="dropdown-item" to="/membership">Society Membership</NavLink>
             </div>
