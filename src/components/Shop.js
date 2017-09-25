@@ -57,7 +57,7 @@ const Shop = () => {
               <a className="order-link" href="https://drive.google.com/file/d/0BxsaKH9lyrNwMXFFcFZBcGdNd00/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o pdf" aria-hidden="true">&nbsp;</i>Order Form</a>
             </div>
             <div className="card-block text-center">
-              <p>Additional items available on our <br /><a className="text-center" href="http://stores.ebay.com/CFRHS-MUSEUM-STORE">eBay Store</a></p>
+              <p>Additional items available on our <br /><a className="text-center" href="http://stores.ebay.com/CFRHS-MUSEUM-STORE" target="_blank" rel="noopener noreferrer">eBay Store</a></p>
             </div>
           </div>
         </div>

@@ -20,9 +20,9 @@ class Newsletter extends Component {
             <p>
               Current and past issues of <i>The Flatwheel</i> are available on Google Drive™.
             </p>
-            <span className="flatwheel-link"> 
-              <a href="https://drive.google.com/drive/folders/0BxsaKH9lyrNwa3ZrcVZXNmNsX1k?usp=sharing" target="_blank" rel="noopener noreferrer"><h5><img className="drive-img" src={GoogleDriveIcon} alt="Color Google Drive Icon"/> &nbsp;View <i>The FLATWHEEL</i></h5></a>
-            </span>
+            <div className="flatwheel-link text-center"> 
+              <a href="https://drive.google.com/drive/folders/0BxsaKH9lyrNwa3ZrcVZXNmNsX1k?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="drive-img" src={GoogleDriveIcon} alt="Color Google Drive Icon"/> &nbsp;<b>View <i>The FLATWHEEL</i></b></a>
+            </div>
           </div>
         </div>
       </div>
