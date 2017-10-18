@@ -22,7 +22,7 @@ The following technology was used for this project:
 
 * [Sass](http://sass-lang.com/) / [SCSS](http://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html)
 
-* [Bootstrap 4](https://github.com/)
+* [Bootstrap 4](https://getbootstrap.com/)
 
 * [JavaScript](https://www.javascript.com/)
 
@@ -37,4 +37,10 @@ The following technology was used for this project:
 * [Git](https://git-scm.com/) & [GitHub](https://github.com/)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
+
+* [Snapshot Testing with Jest](http://facebook.github.io/jest/docs/en/snapshot-testing.html)
+
+* [Surge.sh](http://surge.sh/)
+
+* [Google Drive](https://www.google.com/drive/)
 
