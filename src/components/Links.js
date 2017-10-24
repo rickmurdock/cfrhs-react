@@ -26,7 +26,7 @@ class Links extends Component {
     return (
       <div className="col-md-12 links-page">
       <div className="container-fluid">
-        <h2 className="text-center page-title my-3">Railroad Related Links</h2>
+        <h2 className="text-center page-title page-title-links my-3">Railroad Related Links</h2>
         <div className="row">
           <div className="col-md-3"></div>
           <div id="accordion" role="tablist" aria-multiselectable="true" className="col-md-6">
