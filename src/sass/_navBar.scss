@@ -38,3 +38,28 @@ nav {
 .fa-facebook:hover {
   @include transform(1.3);
 }
+
+// .dropdown-toggle {
+//   color: white;
+// }
+
+.dropdown:focus,
+#navbarDropdownMenuLink:focus {
+  color: lightgray;
+}
+
+// .dropdown:focus,
+// #navbarDropdownMenuLink:focus
+//  {
+//   color: green;
+// }
+
+// #navbarDropdownMenuLink:focus {
+//   color: yellow;
+// }
+
+// #top_navigation ul li:hover > a {  
+
+// .dropdown > a .selected {
+//   color: yellow;
+// }
