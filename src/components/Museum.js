@@ -17,12 +17,12 @@ class Museum extends Component {
           </div>
           <div className="col-md-6">
             <p>         
-              Through the operation of the Central Florida Railroad Museum, the Central Florida Railway Historical Society, Inc. 1) promotes 
-              railway heritage preservation and educates its members and the public about rail transportation, its history and impact, with a 
-              focus on Central Florida; 2) is committed to the collection and preservation of railroad history, with a special focus on Central 
-              Florida; and 3) is committed to the restoration and exhibition of railroad memorabilia for the education and enjoyment of present 
-              and future generations.  It is the Society’s intent that each visitor to the Central Florida Railroad Museum leave with such a 
-              pleasurable experience that they will tell others about the Museum and return again and bring friends and family with them. 
+              Through the operation of the Central Florida Railroad Museum, the Central Florida Railway Historical Society, Inc. (CFRHS or Society) 
+              1) promotes railway heritage preservation and educates its members and the public about rail transportation, its history and impact, 
+              with a focus on Central Florida; 2) is committed to the collection and preservation of railroad history, with a special focus on 
+              Central Florida; and 3) is committed to the restoration and exhibition of railroad memorabilia for the education and enjoyment of 
+              present and future generations. It is the Society’s intent that each visitor to the Central Florida Railroad Museum leave with such a 
+              pleasurable experience that they will tell others about the Museum and return again and bring friends and family with them.
             </p>
             <img src={FairmontMotorcar} alt="1938 Fairmont Motorcar" className="img-fluid col-sm-12 img-motorcar"/>
           </div>
@@ -36,14 +36,18 @@ class Museum extends Component {
           <div className="col-md-10">
             <p>
               Memorabilia on display in the Central Florida Railroad Museum includes historic photographs (including an extensive collection 
-              of T&G photographs from its early steam era until its last run), lanterns, telephones, telegraphs, stoves, tools, furniture, 
-              timetables, dining car china and silver, tinware, marker lights, ticket punches, lamps, uniforms, locomotive bells and whistles, a 
-              1938 Fairmont motorcar, a velocipede hand car and a very large collection of dining car china and silver serving pieces. Outside, 
-              the former Clinchfield caboose #1073, a three head interlocking signal from the former ACL-SAL junction in Plant City, a set of 
-              narrow-gauge wheels and several switch stands are displayed.
+              of Tavares & Gulf Railroad photographs from its early steam era until its last run), lanterns, locks and keys, telephones, 
+              telegraphs, signs, stoves, tools, furniture, timetables, dining car china and silver, tinware, marker lights, ticket punches, 
+              lamps, uniforms, locomotive bells and whistles, a 1938 Fairmont motorcar, and a velocipede hand car. Outside, the former Clinchfield 
+              caboose #1073, a three-head interlocking signal from the former ACL-SAL junction in Plant City, a set of narrow-gauge wheels and 
+              several switch stands and crossing signals are displayed.
+            </p>
+            <p>
+              The Central Florida Railroad Museum is operated under a cooperative agreement between the City of Winter Garden, Florida, the Winter 
+              Garden Heritage Foundation and the Central Florida Railway Historical Society, Inc.
             </p>
             <p>      
-              The Central Florida Railroad Museum is supported by donations and fund raising efforts of the Central Florida Railway Historical 
+              The Central Florida Railroad Museum is supported by donations and fundraising efforts of the Central Florida Railway Historical 
               Society, Inc. and the Winter Garden Heritage Foundation, Inc. The Central Florida Railway Historical Society, Inc. is a non-profit 
               tax exempt 501 (c) (3) educational Florida Corporation. Donations to the Society are tax deductible.
             </p>
