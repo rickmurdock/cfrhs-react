@@ -12,7 +12,7 @@ const MuseumHistory = () => {
       <div className="col-md-10">
         <p>
           Since its founding in November 1970, the Central Florida Chapter of the National Railway Historical Society (Central Florida 
-          Chapter) always had a dream of having a permanent home for Chapter activities and a railroad museum.
+          Chapter or Chapter) always had a dream of having a permanent home for Chapter activities and a railroad museum.
         </p>
         <p>
           The Tavares & Gulf Railroad (T&G) built their second depot (a replacement for the first) in Winter Garden in 1913 at the 
@@ -32,8 +32,8 @@ const MuseumHistory = () => {
         </p>
         <p>
           On May 10, 1982, the Roper Brothers Foundation in Winter Garden donated to the Chapter its building immediately east of the 
-          former depot.  The building was (and still is) attached to the depot through a covered breezeway that was used to unload farm 
-          tractors and automobiles that were shipped to Winter Garden on the T&G.  This structure became known as the Roper Building.
+          former depot. The building was (and still is) attached to the depot through a covered breezeway that was used to unload farm 
+          tractors and automobiles that were shipped to Winter Garden on the T&G. This structure became known as the Roper Building.
         </p>
         <p>
           On May 21, 1983 the Chapter held the grand opening and dedication of the Central Florida Railroad Museum. Guest speakers included 
@@ -43,7 +43,7 @@ const MuseumHistory = () => {
           part of the dedication ceremony.
         </p>
         <p>
-          On December 1, 1983, the Chapter purchased the land immediately east of the Roper Building from the Seaboard System Railroad.  
+          On December 1, 1983, the Chapter purchased the land immediately east of the Roper Building from the Seaboard System Railroad. 
           With this purchase, the Chapter now owned an entire block and their dream of owning and operating a railroad museum finally 
           became a reality.
         </p>
@@ -53,11 +53,11 @@ const MuseumHistory = () => {
           meetings. The first meeting was held in the Museum in January 1986. The restoration efforts were completed in May 1987.
         </p>
         <p>
-          In September 1990, the Chapter acquired Seaboard System Railroad Caboose #11073 (Former Clinchfield Railroad Caboose #1073).  
+          In September 1990, the Chapter acquired Seaboard System Railroad Caboose #11073 (Former Clinchfield Railroad Caboose #1073). 
           During August 1996, Chapter members completed the restoration of the caboose.
         </p>
         <p>
-          In November 1992, the Museum’s Ernest S. Green Memorial Library  was moved to the room built in the east end of the Museum Meeting 
+          In November 1992, the Museum’s Ernest S. Green Memorial Library was moved to the room built in the east end of the Museum Meeting 
           Room from the small room in the main part of the depot.
         </p>
         <p>
@@ -68,16 +68,16 @@ const MuseumHistory = () => {
           school’s reception area and its large multi-purpose room became a railroad museum, an extension of the Central Florida RR Museum. 
           The multi-purpose room was lined with railroad photographs and display cases of railroad memorabilia from the Central Florida 
           Railroad Museum’s collection. The room also has a large working Lionel train layout. The reception area of the school was filled 
-          with railroad memorabilia, model trains and flashing railroad crossing signals. April 2001 – Chapter member Henry Lebel is 
-          guest speaker at the grand opening of the Lakeville Elementary School Railroad Museum.  Also in 2001, the Chapter helped the 
-          school acquire a former Atlantic Coast Line M-5 caboose for display on the school grounds. Lakeville uses mottos “We’ve Been
+          with railroad memorabilia, model trains and flashing railroad crossing signals. April 2001 – Chapter Member Henry Lebel was 
+          guest speaker at the grand opening of the Lakeville Elementary School Railroad Museum. Also in 2001, the Chapter helped the 
+          school acquire a former Atlantic Coast Line M-5 caboose for display on the school grounds. Lakeville uses mottos “We’ve Been 
           Working on the Railroad” and “Home of the Engineers”.
         </p>
         <p>
           In April 2000, the family of the late Chapman S. Root donated a major part of Mr. Root’s railroad memorabilia collection to the 
           Central Florida Chapter for display in the Central Florida Railroad Museum. The donation included a large collection of railroad 
           dining car china and silver service, dining car menus, railroad signs, Pullman memorabilia, Railway Express memorabilia, table 
-          linens and uniforms and custom made glass display cases for display of the items. Mr. Root’s Chesapeake & Ohio caboose is also on 
+          linens and uniforms and custom-made glass display cases for display of the items. Mr. Root’s Chesapeake & Ohio caboose is also on 
           display at the Winter Garden Heritage Museum which is located on Plant Street in downtown Winter Garden in the former Atlantic Coast 
           Line Railroad depot. Mr. Root owned Associated Coca-Cola, the largest Coca-Cola bottling company in the country. He also owned 4 
           private railcars which he used for family travel and vacations. Two of his railcars and his Coca-Cola collection are now on display 
@@ -95,7 +95,7 @@ const MuseumHistory = () => {
           with the City of Winter Garden and the Winter Garden Heritage Foundation for the Central Florida RR Museum. The Central Florida 
           Railroad Museum is operated under a cooperative agreement between the City of Winter Garden, the Winter Garden Heritage Foundation 
           and the Central Florida Chapter of the National Railway Historical Society. The Winter Garden Heritage Foundation provides the funding 
-          for the daily operation and the Museum host Monday through Friday. Chapter members serve as host on Saturdays and Sundays. The Museum 
+          for the daily operationand the Museum host Monday through Friday. Chapter members serve as host on Saturdays and Sundays. The Museum 
           hours are 1:00 PM to 5:00 PM. The Museum is closed on select holidays.
         </p>
         <p>
@@ -118,11 +118,32 @@ const MuseumHistory = () => {
         </p>
         <p>
           On January 1, 2013, the Central Florida Chapter of the National Railway Historical Society, Inc. became the Central Florida 
-          Railway Historical Society, Inc.
+          Railway Historical Society, Inc. (CFRHS or Society).
         </p>
         <p>
-          Currently, the Central Florida Railroad Museum hosts the annual meeting of the Florida Chapter of Samuel B. Morse Telegraph Club 
-          during April and the annual visit of the North American Rail Car Operators Association’s (NARCOA) speeders during the spring.
+          On November 23, 2013, the CFRHS, the Winter Garden Heritage Foundation and the City of Winter Garden celebrated the 100<sup>th</sup> birthday of 
+          the former Tavares & Gulf Railroad’s Winter Garden Depot. The recognition ceremony was held at 2:00 PM. Winter Garden Mayor Pro-Tem 
+          Bob Buchanan, State Representative Dan Webster, Winter Garden Heritage Foundation President Lori Gibson, Winter Garden Heritage 
+          Foundation Executive Director Kay Cappleman, CFRHS President Phil Cross and CFRHS Museum Curator Ken Murdock spoke to the attending 
+          crowd of approximately 100 guests. At the end of the ceremony, Charter Member Clayton Bishop unveiled the plaque recognizing the 
+          former depot’s 100 years of existence as a depot and home of the Central Florida Railroad Museum. Special displays inside the Museum 
+          included the Orange Lego User Group’s LEGO train layout featuring downtown Winter Garden manned by Mike Huffman and Mike Zehr, Orange 
+          County Florida’s RICHES Historical Project/Program, the Florida Chapter of the Morse Telegraphy Club’s operating telegraph display 
+          manned by Warren McFarland and Don Andrus, and two computerized train simulators operated by Connor Murdock and Jarrod Reynolds. The 
+          event was held in conjunction with the Winter Garden Downtown Merchants Association’s Annual Art Festival.
+        </p>
+        <p>
+          On September 28, 2016, Society members officially began the expansion of the Central Florida Railroad Museum into the Roper Building. 
+          Framing work for the library and shop were the first orders of work.
+        </p>
+        <p>
+          Over the years, the Society and the Central Florida Railroad Museum has been involved in a number of activities that include being a 
+          Partner-In-Education with Lakeville Elementary School in Apopka, Florida; sponsoring model train and railroadiana shows; setting up 
+          and manning exhibits at the Central Florida and Lake County Fairs; hosting North American Rail Car Operator Association motor car 
+          visits to Winter Garden and the Central Florida Railroad Museum; hosting annual meetings of the Florida Chapter of the Morse Telegraph 
+          Club, hosting Society field trips to railroad-related locations throughout Florida and the southeastern United States; the loaning of 
+          railroad-related artifacts for displays throughout Central Florida; and sponsoring train rides out of Winter Garden over the Florida 
+          Central Railroad.
         </p>
       </div>
       <div className="col-md-1"></div>
