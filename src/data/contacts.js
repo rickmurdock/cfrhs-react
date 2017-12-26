@@ -19,13 +19,13 @@ const contacts = [
   },
   {
     position: "Secretary",
-    name: "Joe Lehmann, Jr.",
+    name: "Mike Forrester",
     email: "secretary@cfrhs.org",
     board: true
   },
   {
     position: "Assistant Secretary",
-    name: "Jarrod Reynolds",
+    name: "Mike Ryan",
     email: "asstsecretary@cfrhs.org",
     board: true
   },
