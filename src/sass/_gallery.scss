@@ -1,0 +1,26 @@
+#carouselControls {
+  background-color: black;
+}
+
+/*.carousel-inner {
+  max-width: 800px;
+  max-height: 700px;
+  width: 100%;
+}*/
+
+.carousel-item img {
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: none;*/
+  background: cover;
+  height: 600px;
+  /*margin-top: 0;
+  margin-bottom: 0;*/
+  margin: auto;
+}
+
+.carousel-caption p {
+  text-shadow: 2px 2px 4px #000000;
+}
