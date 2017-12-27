@@ -76,6 +76,138 @@ nav {
   text-align: center;
 }
 
+.membership-page {
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/T&GPicnic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.member-card-header {
+  background-color: #954838;
+  padding: 15px;
+  color: white;
+  opacity: 1 !important;
+}
+
+.member-card-title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.member-card-footer {
+  color: #954838;
+  font-size: 1.5em;
+}
+
+.membership-form {
+  padding: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.img-headlight {
+  width: 80%;
+}
+
+.img-station,
+.img-map,
+.img-signal,
+.img-colletion {
+  width: 100%;
+}
+
+.parallax {
+  background-image: url(../images/SteamRun.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  margin: 30px 0;
+}
+
+.museum-history-title {
+  font: 600 45px "Open Sans", sans-serif;
+  color: white;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.img-caboose {
+  padding: 20px;
+}
+
+.img-plaque {
+  padding: 20px 30px 20px 0;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .museum-history-title {
+    font: 600 75px "Open Sans", sans-serif;
+    color: white;
+    position: relative;
+    top: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
+
+#carouselControls {
+  background-color: black;
+}
+
+/*.carousel-inner {
+  max-width: 800px;
+  max-height: 700px;
+  width: 100%;
+}*/
+.carousel-item img {
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: none;*/
+  background: cover;
+  height: 600px;
+  /*margin-top: 0;
+  margin-bottom: 0;*/
+  margin: auto;
+}
+
+.carousel-caption p {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.newsletter-page {
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/OrangeBeltRR.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.flatwheel-link {
+  display: block;
+  padding: 40px;
+}
+
+.drive-img {
+  width: 30px;
+}
+
 .store-item {
   padding: 20px;
 }
@@ -155,38 +287,10 @@ p,
   font: 1.1em "Open Sans", sans-serif;
 }
 
-.img-station,
-.img-map,
-.img-signal,
-.img-colletion {
-  width: 100%;
-}
-
-.parallax {
-  background-image: url(../images/SteamRun.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 100%;
-  position: relative;
-  margin: 30px 0;
-}
-
-.museum-history-title {
-  font: 600 75px "Open Sans", sans-serif;
-  color: white;
-  position: relative;
-  top: 90px;
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
-}
-
 .page-title,
 .page-title-membership,
 .page-title-newsletter {
-  font: 600 45px "Open Sans", sans-serif;
+  font: 600 2em "Open Sans", sans-serif;
   padding: 12px;
   margin: 0 !important;
 }
@@ -212,14 +316,6 @@ p,
   border-radius: 0 0 5px 5px;
 }
 
-.membership-form {
-  padding: 15px;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 0;
-  border-radius: 5px;
-}
-
 .membership-container,
 .newsletter-container {
   opacity: .9;
@@ -235,95 +331,22 @@ p,
   background-repeat: no-repeat;
 }
 
-.membership-page {
-  width: 100%;
-  background-size: cover;
-  background-image: url("../images/T&GPicnic.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.newsletter-page {
-  width: 100%;
-  background-size: cover;
-  background-image: url("../images/OrangeBeltRR.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .pdf {
   color: red;
-}
-
-.member-card-header {
-  background-color: #954838;
-  padding: 15px;
-  color: white;
-  opacity: 1 !important;
-}
-
-.member-card-title {
-  color: white;
-  font-size: 1.5em;
-}
-
-.member-card-footer {
-  color: #954838;
-  font-size: 1.5em;
-}
-
-#carouselControls {
-  background-color: black;
-}
-
-/*.carousel-inner {
-  max-width: 800px;
-  max-height: 700px;
-  width: 100%;
-}*/
-.carousel-item img {
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-width: none;*/
-  background: cover;
-  height: 600px;
-  /*margin-top: 0;
-  margin-bottom: 0;*/
-  margin: auto;
-}
-
-.carousel-caption p {
-  text-shadow: 2px 2px 4px #000000;
 }
 
 .links-li {
   list-style: none;
 }
 
-.flatwheel-link {
-  display: block;
-  padding: 40px;
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .page-title,
+  .page-title-membership,
+  .page-title-newsletter {
+    font: 600 2.8em "Open Sans", sans-serif;
+  }
 }
-
-.drive-img {
-  width: 30px;
-}
-
-.img-caboose {
-  padding: 20px;
-}
-
-.img-plaque {
-  padding: 20px 30px 20px 0;
-}
-
-.img-headlight {
-  width: 80%;
-}
- 
-
- /*# sourceMappingURL= App.css.map */
+/*# sourceMappingURL=App.css.map */
