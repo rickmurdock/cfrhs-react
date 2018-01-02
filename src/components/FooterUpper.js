@@ -24,7 +24,7 @@ const FooterUpper = () => {
           </p>
           <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i className="fa fa-facebook-official fa-2x" aria-hidden="false"></i></a>
         </div>
-        <div className="col-md-2">
+        <div className="col-md-2 pr-0">
           <p className="footer-text">
             <Link to="/">Home</Link><br/>
             <Link to="/history">Our History</Link><br/>
