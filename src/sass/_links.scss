@@ -1,0 +1,28 @@
+.links-row {
+  margin-bottom: 20px;
+}
+
+.ul-links {
+  margin-bottom: 0;
+}
+
+.links-li {
+  list-style: none;
+}
+
+.collapse {
+  $collapse: true;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+  @media screen and (min-width: 545px) {
+    .links-page {
+      height: 120vh;
+      background-size: cover;
+      background-image: url('../images/DepotArtistic.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+}
