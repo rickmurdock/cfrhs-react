@@ -12,7 +12,7 @@ const LinkCard = (props) => {
       </div>
       <div id={"collapse" + props.card} className={"collapse " + props.show} role="tabpanel" aria-labelledby={"heading" + props.card}>
         <div className="card-block">
-          <ul>
+          <ul className="ul-links">
             {props.children}
           </ul>
         </div>

@@ -22,11 +22,11 @@
 }
 
 .logo-wghf {
-  width: 190px;
+  width: 127px;
 }
 
 .logo-hra {
-  width: 210px;
+  width: 140px;
 }
 
 .footer-lower {
@@ -43,3 +43,34 @@
 .rick:hover {
   color: inherit;
 }
+
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+  // @media screen and (min-width: 545px) {
+  //   .logo-wghf {
+  //     width: 75%;
+  //   }
+
+  //   .logo-hra {
+  //     width: 75%;
+  //   }
+  // }
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+      .logo-wghf {
+      // width: 190px;
+      width: 90%;
+      max-width: 190px;
+    }
+
+    .logo-hra {
+      // width: 210px;
+      width: 90%;
+      max-width: 210px
+    }
+  }

@@ -35,7 +35,7 @@ class Gallery extends Component {
         <h2 className="text-center page-title my-3">Gallery</h2>
         <div className="row">
           <div className="col-sm-0 col-md-2"></div>
-          <div className="col-sm-12 col-md-8">
+          <div className="col-sm-12 col-lg-8">
             <div id="carouselControls" className="carousel slide" data-ride="carousel">
               <ol className="carousel-indicators">
                 {slideTos}

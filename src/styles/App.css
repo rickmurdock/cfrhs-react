@@ -16,8 +16,29 @@
   color: #954838;
   text-align: center;
   font-family: "Libre Baskerville", serif;
+  font-size: 1.75em;
   font-weight: 700;
   text-shadow: 2px 2px 4px lightgray;
+  padding-top: 5px;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 2.5em;
+    padding-top: 0;
+  }
 }
 
 nav {
@@ -72,8 +93,39 @@ nav {
 }
 
 .calendar {
-  padding: 30px;
+  padding: 15px;
   text-align: center;
+}
+
+.mission,
+.meetings {
+  margin-top: 15px;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .mission,
+  .meetings {
+    margin-top: 30px;
+  }
+  .calendar {
+    padding: 20px;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .mission,
+  .meetings {
+    margin-top: 50px;
+  }
+  .calendar {
+    padding: 30px;
+  }
 }
 
 .membership-page {
@@ -210,6 +262,31 @@ nav {
   width: 30px;
 }
 
+.links-row {
+  margin-bottom: 20px;
+}
+
+.ul-links {
+  margin-bottom: 0;
+}
+
+.links-li {
+  list-style: none;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .links-page {
+    height: 120vh;
+    background-size: cover;
+    background-image: url("../images/DepotArtistic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
 .store-item {
   padding: 20px;
 }
@@ -227,11 +304,38 @@ nav {
   transition: all 1s ease;
 }
 
-.store-image:hover img {
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
+.store-image {
+  width: 60%;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+  .store-image:hover img {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+  .store-image {
+    width: 45%;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .store-image:hover img {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25);
+  }
+  .store-image {
+    width: 100%;
+  }
 }
 
 .footer-upper {
@@ -261,11 +365,11 @@ nav {
 }
 
 .logo-wghf {
-  width: 190px;
+  width: 127px;
 }
 
 .logo-hra {
-  width: 210px;
+  width: 140px;
 }
 
 .footer-lower {
@@ -281,6 +385,23 @@ nav {
 .rick,
 .rick:hover {
   color: inherit;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .logo-wghf {
+    width: 90%;
+    max-width: 190px;
+  }
+  .logo-hra {
+    width: 90%;
+    max-width: 210px;
+  }
 }
 
 p,
@@ -324,21 +445,8 @@ p,
   padding-bottom: 30px;
 }
 
-.links-page {
-  height: 120vh;
-  background-size: cover;
-  /*background-image: url('../images/RRMuseumArtistic.jpg');*/
-  background-image: url("../images/DepotTest2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .pdf {
   color: red;
-}
-
-.links-li {
-  list-style: none;
 }
 
 /************************************/

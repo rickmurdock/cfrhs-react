@@ -8,12 +8,12 @@ const Shop = () => {
     <div className="container-fluid content">
       <h2 className="text-center page-title my-3">Gift Shop</h2>
       <div className="row">
-        <div className="col-md-1">
+        <div className="col-sm-1">
         </div>
 
         <div className="col-md-8">
           <div className="row">
-            <div className="col-md-3 store-image">
+            <div className="col-md-3 store-image mx-auto">
               <img src={TGDVD} width="100%;" alt="The Whistle Blows No More DVD" />
             </div>
             <div className="col-md-9 store-item">
@@ -25,7 +25,7 @@ const Shop = () => {
           </div>
           <hr className="hr-store" />
           <div className="row">
-            <div className="col-md-3 store-image">
+            <div className="col-md-3 store-image mx-auto">
               <img className="img-fluid" src={OutLineHistoryCFRR} width="100%;" alt="Outline History of Central Florida Railroads book by Ken Murdock" />
             </div>
             <div className="col-md-9 store-item">
@@ -38,7 +38,7 @@ const Shop = () => {
           </div>
           <hr className="hr-store" />
           <div className="row">
-            <div className="col-md-3 store-image">
+            <div className="col-md-3 store-image mx-auto">
               <img src={TGStationPainting} width="100%" alt="Winter Garden Station, Tavares & Gulf Railroad Circa 1913 by Dan Cruise" />
             </div>
             <div className="col-md-9 store-item">
@@ -51,7 +51,7 @@ const Shop = () => {
           </div>
         </div>
 
-        <div className="col-md-2">
+        <div className="col-md-3 col-lg-2">
           <div className="card order"> 
             <div className="card-header text-center align-middle">
               <a className="order-link" href="https://drive.google.com/file/d/0BxsaKH9lyrNwMXFFcFZBcGdNd00/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o pdf" aria-hidden="true">&nbsp;</i>Order Form</a>

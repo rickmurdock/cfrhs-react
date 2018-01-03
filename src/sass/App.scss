@@ -19,6 +19,7 @@ $font-stack-condensed: 'Open Sans Condensed', sans-serif;
 @import 'museum';
 @import 'gallery';
 @import 'newsletter';
+@import 'links';
 @import 'store';
 @import 'footer';
 
@@ -63,21 +64,8 @@ p,
   padding-bottom: 30px;
 }
 
-.links-page {
-  height: 120vh;
-  background-size: cover;
-  /*background-image: url('../images/RRMuseumArtistic.jpg');*/
-  background-image: url('../images/DepotTest2.png');
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .pdf {
   color: $pdf-color;
-}
-
-.links-li {
-  list-style: none;
 }
 
 /************************************/

@@ -2,6 +2,27 @@
   color: $brand-color;
   text-align: center;
   font-family: $font-title-bar;
+  font-size: 1.75em;
   font-weight: 700;
   text-shadow: 2px 2px 4px lightgray;
+  padding-top: 5px;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+  @media screen and (min-width: 545px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .title {
+    font-size: 2.5em;
+    padding-top: 0;
+  }
 }

@@ -12,6 +12,32 @@
   @include transition();
 }
 
-.store-image:hover img {
-  @include transform(1.25);
+.store-image {
+  width: 60%;
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+  @media screen and (min-width: 545px) {
+    .store-image:hover img {
+      @include transform(1.25);
+  }
+
+  .store-image {
+    width: 45%;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+  .store-image:hover img {
+    @include transform(1.25);
+  }
+
+  .store-image {
+    width: 100%;
+  }
 }

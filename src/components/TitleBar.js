@@ -4,12 +4,12 @@ const TitleBar = () => {
   return (
     <div className="container-fluid">
       <div className="row align-items-center">
-        <div className="col-sm-3">
-          <div className="container">
+        <div className="col-sm-12 col-md-4 col-lg-3">
+          <div className="container p-0 text-center">
             <img className="logo img-fluid" src={require('../images/CFRHSLogoSmall.JPG')} width="350" alt="Central Florida Railway Historical Society Logo"/>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-12 col-md-8 col-lg-6">
           <h1 className="text-center title mx-auto">Central Florida Railway Historical Society, Inc.</h1>
         </div>
         {/*<div className="col-md-3">
