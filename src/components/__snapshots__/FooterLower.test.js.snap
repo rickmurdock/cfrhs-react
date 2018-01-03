@@ -9,9 +9,9 @@ exports[`FooterLower renders correctly 1`] = `
   >
     <div>
       <p
-        className="footer-text-lower my-auto"
+        className="footer-text-lower my-auto text-center"
       >
-        © 2017 Central Florida Railway Historical Society, Inc.   
+        © 2018 Central Florida Railway Historical Society, Inc.   
         <i
           aria-hidden="true"
           className="fa fa-train fa"

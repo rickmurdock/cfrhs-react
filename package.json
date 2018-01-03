@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "install": "^0.10.1",
+    "jest-cli": "^20.0.4",
     "npm": "^5.4.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.3",

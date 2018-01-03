@@ -112,7 +112,7 @@ exports[`Contact renders correctly 1`] = `
           Secretary
         </h5>
         <p>
-          Joe Lehmann, Jr.
+          Mike Forrester
           <br />
           <a
             href="mailto:secretary@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"
@@ -126,7 +126,7 @@ exports[`Contact renders correctly 1`] = `
           Assistant Secretary
         </h5>
         <p>
-          Jarrod Reynolds
+          Mike Ryan
           <br />
           <a
             href="mailto:asstsecretary@cfrhs.org?subject=Email%20from%20CFRHS.ORG%20website"

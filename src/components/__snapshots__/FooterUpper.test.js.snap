@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterUpper renders correctly 1`] = `
+<div
+  className="container-fluid footer-upper"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-4"
+    >
+      <p
+        className="footer-text"
+      >
+        Central Florida Railway Historical Society, Inc.
+        <br />
+        101 South Boyd Street
+        <br />
+        Winter Garden, FL 34787
+      </p>
+      <p
+        className="footer-text"
+      >
+        P.O. Box 770567
+        <br />
+        Winter Garden, FL 34777-0567
+      </p>
+      <p
+        className="footer-text"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-phone"
+        />
+         (407) 656-0559
+      </p>
+      <p
+        className="footer-text"
+      >
+        <a
+          href="mailto:info@cfrhs.org?subject=Email%20for%20information%20from%20www.cfrhs.org"
+        >
+          <i
+            aria-hidden="true"
+            className="fa fa-envelope-o"
+          />
+           info@cfrhs.org
+        </a>
+      </p>
+      <a
+        href="https://www.facebook.com/CentralFloridaRailroadMuseum/"
+      >
+        <i
+          aria-hidden="false"
+          className="fa fa-facebook-official fa-2x"
+        />
+      </a>
+    </div>
+    <div
+      className="col-md-2 pr-0"
+    >
+      <p
+        className="footer-text"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+        <br />
+        <a
+          href="/history"
+          onClick={[Function]}
+        >
+          Our History
+        </a>
+        <br />
+        <a
+          href="/board"
+          onClick={[Function]}
+        >
+          Board of Directors
+        </a>
+        <br />
+        <a
+          href="/membership"
+          onClick={[Function]}
+        >
+          Society Membership
+        </a>
+        <br />
+        <a
+          href="/museum"
+          onClick={[Function]}
+        >
+          Museum
+        </a>
+        <br />
+        <a
+          href="/gallery"
+          onClick={[Function]}
+        >
+          Gallery
+        </a>
+        <br />
+        <a
+          href="/shop"
+          onClick={[Function]}
+        >
+          Gift Shop
+        </a>
+        <br />
+        <a
+          href="/newsletter"
+          onClick={[Function]}
+        >
+          Newsletter
+        </a>
+        <br />
+        <a
+          href="/links"
+          onClick={[Function]}
+        >
+          Links
+        </a>
+        <br />
+        <a
+          href="/contact"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+        <br />
+      </p>
+    </div>
+    <div
+      className="col-md-3 text-center my-auto"
+    >
+      <a
+        href="http://www.wghf.org/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Winter Garden Heritage Foundation"
+          className="logo-wghf"
+          src="WGHFlogo.png"
+        />
+        <br />
+        <br />
+        <p
+          className="footer-text"
+        >
+          Affiliated with the Winter Garden Heritage Foundation
+        </p>
+      </a>
+    </div>
+    <div
+      className="col-md-3 text-center my-auto"
+    >
+      <a
+        href="http://www.atrrm.org/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Heritage Rail Alliance"
+          className="logo-hra"
+          src="HeritageRailAllianceLogo.png"
+        />
+        <br />
+        <br />
+        <p
+          className="footer-text"
+        >
+          Member of HeritageRail Alliance
+        </p>
+      </a>
+    </div>
+  </div>
+</div>
+`;

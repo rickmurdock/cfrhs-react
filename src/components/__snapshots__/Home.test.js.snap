@@ -11,10 +11,10 @@ exports[`Home renders correctly 1`] = `
       className="col-md-1"
     />
     <div
-      className="col-md-3"
+      className="col-md-10 col-lg-3"
     >
       <h4
-        className="text-center mt-5"
+        className="text-center mission"
       >
         Mission Statement
       </h4>
@@ -22,7 +22,7 @@ exports[`Home renders correctly 1`] = `
         The Central Florida Railway Historical Society, Inc. promotes railway heritage preservation and educates its members and the public about rail transportation, its history and impact, with a focus on Central Florida.
       </p>
       <h4
-        className="text-center mt-5"
+        className="text-center meetings"
       >
         Meetings
       </h4>
@@ -49,7 +49,7 @@ exports[`Home renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="col-md-8 text-center"
+      className="col-md-12 col-lg-8 text-center"
     >
       <img
         alt="Central Florida Railroad Museum"

@@ -47,7 +47,7 @@ exports[`Board renders correctly 1`] = `
           Secretary
         </h5>
         <p>
-          Joe Lehmann, Jr.
+          Mike Forrester
         </p>
       </div>
       <div>
@@ -55,7 +55,7 @@ exports[`Board renders correctly 1`] = `
           Assistant Secretary
         </h5>
         <p>
-          Jarrod Reynolds
+          Mike Ryan
         </p>
       </div>
     </div>

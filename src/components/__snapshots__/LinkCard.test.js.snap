@@ -30,7 +30,9 @@ exports[`LinkCard renders correctly 1`] = `
     <div
       className="card-block"
     >
-      <ul />
+      <ul
+        className="ul-links"
+      />
     </div>
   </div>
 </div>
