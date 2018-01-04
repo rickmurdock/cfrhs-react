@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders correctly 1`] = `
+<nav
+  className="navbar sticky-top navbar-toggleable-md"
+>
+  <button
+    aria-controls="navbarNavDropdown"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    className="navbar-toggler navbar-toggler-right"
+    data-target="#navbarNavDropdown"
+    data-toggle="collapse"
+    type="button"
+  >
+    <span>
+      <i
+        aria-hidden="true"
+        className="fa fa-bars"
+      />
+    </span>
+  </button>
+  <span
+    className="navbar-text"
+  >
+     
+  </span>
+  <div
+    className="collapse navbar-collapse"
+    id="navbarNavDropdown"
+  >
+    <div
+      className="navbar-nav mr-auto"
+    >
+      <a
+        aria-current="true"
+        className="nav-item nav-link selected"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+      <div
+        className="nav-item dropdown"
+      >
+        <a
+          aria-expanded="false"
+          aria-haspopup="true"
+          className="nav-link dropdown-toggle"
+          data-toggle="dropdown"
+          href=""
+          id="navbarDropdownMenuLink"
+        >
+          About
+        </a>
+        <div
+          aria-labelledby="navbarDropdownMenuLink"
+          className="dropdown-menu"
+        >
+          <a
+            aria-current={false}
+            className="dropdown-item"
+            href="/history"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Our History
+          </a>
+          <a
+            aria-current={false}
+            className="dropdown-item"
+            href="/board"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Board of Directors
+          </a>
+          <a
+            aria-current={false}
+            className="dropdown-item"
+            href="/membership"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Society Membership
+          </a>
+        </div>
+      </div>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/museum"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Museum
+      </a>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/gallery"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Gallery
+      </a>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/shop"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Gift Shop
+      </a>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/newsletter"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Newsletter
+      </a>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/links"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Links
+      </a>
+      <a
+        aria-current={false}
+        className="nav-item nav-link"
+        href="/contact"
+        onClick={[Function]}
+        style={undefined}
+      >
+        Contact
+      </a>
+    </div>
+    <div
+      className="navbar-brand my-auto"
+    >
+      <a
+        href="https://www.facebook.com/CentralFloridaRailroadMuseum/"
+      >
+        <i
+          aria-hidden="false"
+          className="fa fa-facebook"
+        />
+      </a>
+    </div>
+  </div>
+</nav>
+`;

@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery renders correctly 1`] = `
+<div
+  className="container-fluid"
+>
+  <h2
+    className="text-center page-title my-3"
+  >
+    Gallery
+  </h2>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-0 col-md-2"
+    />
+    <div
+      className="col-sm-12 col-lg-8"
+    >
+      <div
+        className="carousel slide"
+        data-ride="carousel"
+        id="carouselControls"
+      >
+        <ol
+          className="carousel-indicators"
+        >
+          <li
+            className="active"
+            data-slide-to={0}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={1}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={2}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={3}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={4}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={5}
+            data-target="#carouselControls"
+          />
+          <li
+            className=""
+            data-slide-to={6}
+            data-target="#carouselControls"
+          />
+        </ol>
+        <div
+          className="carousel-inner"
+          role="listbox"
+        >
+          <div
+            className="carousel-item active"
+          >
+            <img
+              alt="Behind the Central Florida Railroad Museum is a Clinchfield caboose, which is available for exploring."
+              className="figure-img d-block img-fluid"
+              src="Caboose.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                Behind the Central Florida Railroad Museum is a Clinchfield caboose, which is available for exploring.
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="1938 Fairmont motorcar"
+              className="figure-img d-block img-fluid"
+              src="FairmontMotorcar.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                1938 Fairmont motorcar
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="The Tavares, Eustis and Gulf Railroad brought its steam locomotive to the museum several years ago for special passenger runs."
+              className="figure-img d-block img-fluid"
+              src="SteamRun.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                The Tavares, Eustis and Gulf Railroad brought its steam locomotive to the museum several years ago for special passenger runs.
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="This historic plaque is located at the entrance to the Railroad Museum."
+              className="figure-img d-block img-fluid"
+              src="Plaque.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                This historic plaque is located at the entrance to the Railroad Museum.
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="Winter Garden’s first Tavares and Gulf depot was located a block east of the 1913 station on the south side of the tracks."
+              className="figure-img d-block img-fluid"
+              src="T&GFirstWGDepot.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                Winter Garden’s first Tavares and Gulf depot was located a block east of the 1913 station on the south side of the tracks.
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="An Orange Belt train, which had a Winter Garden station, is pictured in the late 1890s."
+              className="figure-img d-block img-fluid"
+              src="OrangeBeltRR.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                An Orange Belt train, which had a Winter Garden station, is pictured in the late 1890s.
+              </p>
+            </div>
+          </div>
+          <div
+            className="carousel-item "
+          >
+            <img
+              alt="This Chessie caboose is located at the nearby Winter Garden Heritage Museum."
+              className="figure-img d-block img-fluid"
+              src="ChessieCaboose.jpg"
+            />
+            <div
+              className="carousel-caption d-none d-md-block"
+            >
+              <p>
+                This Chessie caboose is located at the nearby Winter Garden Heritage Museum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          data-slide="prev"
+          href="#carouselControls"
+          role="button"
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-prev-icon"
+          />
+          <span
+            className="sr-only"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          className="carousel-control-next"
+          data-slide="next"
+          href="#carouselControls"
+          role="button"
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-next-icon"
+          />
+          <span
+            className="sr-only"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
