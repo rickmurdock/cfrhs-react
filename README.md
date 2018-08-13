@@ -4,7 +4,7 @@
 
 ---
 
-View the project: [https://cfrhs-react.surge.sh/](https://cfrhs-react.surge.sh/)
+View the project: [https://cfrhs.org](https://cfrhs.org)
 
 ---
 
