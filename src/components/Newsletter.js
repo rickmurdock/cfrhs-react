@@ -21,7 +21,7 @@ class Newsletter extends Component {
               Current and past issues of <i>The Flatwheel</i> are available on Google Drive™.
             </p>
             <div className="flatwheel-link text-center"> 
-              <a href="https://drive.google.com/drive/folders/0BxsaKH9lyrNwa3ZrcVZXNmNsX1k?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="drive-img" src={GoogleDriveIcon} alt="Color Google Drive Icon"/> &nbsp;<b>View <i>The FLATWHEEL</i></b></a>
+              <a href="https://drive.google.com/drive/folders/1hx0cIXlnoIh0pAUvoEiOBu3DSnKPUV66?usp=sharing" target="_blank" rel="noopener noreferrer"><img className="drive-img" src={GoogleDriveIcon} alt="Color Google Drive Icon"/> &nbsp;<b>View <i>The FLATWHEEL</i></b></a>
             </div>
           </div>
         </div>
