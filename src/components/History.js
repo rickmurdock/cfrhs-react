@@ -12,7 +12,7 @@ const History = () => {
         From its inception, the Chapter always had a dream of having a permanent home for Chapter activities and a 
         railroad museum. The Chapter purchased the former Tavares & Gulf Railroad depot at Winter Garden from the 
         Seaboard Coast Line Railroad on October 22, 1979, and immediately began restoration efforts on the structure. 
-        Today, the structure houses the Central Florida Railroad Museum
+        Today, the structure houses the Central Florida Railroad Museum.
       </p>
       <p>
         On November 8, 2010, the Chapter celebrated its 40<sup>th</sup> Anniversary at its regular monthly meeting.

@@ -27,7 +27,7 @@ const NavBar = () => {
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/contact">Contact</NavLink>
         </div>
         <div className="navbar-brand my-auto">
-          <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i className="fa fa-facebook" aria-hidden="false"></i></a>
+          <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook" aria-hidden="false"></i></a>
         </div>
       </div>
     </nav>

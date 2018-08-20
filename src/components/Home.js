@@ -20,7 +20,7 @@ class Home extends Component {
               101 South Boyd Street, in downtown historic Winter Garden.
             </p>
             <div className="calendar">
-              <a className="btn btn-primary btn-sm" role="button" aria-pressed="true" href="https://calendar.google.com/calendar/htmlembed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=7ud72iu9um3qrqeprt153j36qk%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" target="_blank" rel="noopener noreferrer"><i className="fa fa-calendar" aria-hidden="true"></i>&nbsp; Events Calendar</a>
+              <a className="btn btn-primary btn-sm" role="button" aria-pressed="true" href="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cfrrmuseum%40gmail.com&amp;color=%23711616&amp;ctz=America%2FNew_York" target="_blank" rel="noopener noreferrer"><i className="fa fa-calendar" aria-hidden="true"></i>&nbsp; Events Calendar</a>
             </div>
           </div>
           <div className="col-md-12 col-lg-8 text-center">

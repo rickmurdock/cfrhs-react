@@ -22,7 +22,7 @@ const FooterUpper = () => {
           <p className="footer-text">
             <a href="mailto:info@cfrhs.org?subject=Email%20for%20information%20from%20www.cfrhs.org"><i className="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;info@cfrhs.org</a> 
           </p>
-          <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i className="fa fa-facebook-official fa-2x" aria-hidden="false"></i></a>
+          <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-official fa-2x" aria-hidden="false"></i></a>
         </div>
         <div className="col-md-2 pr-0">
           <p className="footer-text">
