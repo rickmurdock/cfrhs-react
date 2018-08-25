@@ -30,7 +30,7 @@ class Links extends Component {
         <div className="row links-row">
           <div className="col-md-3"></div>
           <div id="accordion" role="tablist" aria-multiselectable="true" className="col-md-6">
-            <LinkCard title={"Historical Organizations & Museums"} card={"One"} show={"show"} expanded="true"> 
+            <LinkCard title={"Historical Organizations & Museums"} card={"One"} show={""} expanded="true"> 
               {historicalLinks}
             </LinkCard>
             <LinkCard title={"Railroad Operations & Rail Fan Opportunities"} card={"Two"} show={""} expanded="false"> 
