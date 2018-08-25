@@ -46,7 +46,7 @@ const History = () => {
       </p>
       <p>
         The Society also holds weekly work sessions on Wednesdays and monthly work sessions on a designated Saturday 
-        at the Central Florida Railroad Museum to expand the museum facilities, maintain its railroad memorabilia 
+        at the Central Florida Railroad Museum to maintain its railroad memorabilia 
         collection, to take care of minor repairs and housekeeping chores, and to fellowship with other members.
       </p>
       <p>

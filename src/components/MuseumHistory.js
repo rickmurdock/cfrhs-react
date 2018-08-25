@@ -95,7 +95,7 @@ const MuseumHistory = () => {
           with the City of Winter Garden and the Winter Garden Heritage Foundation for the Central Florida RR Museum. The Central Florida 
           Railroad Museum is operated under a cooperative agreement between the City of Winter Garden, the Winter Garden Heritage Foundation 
           and the Central Florida Chapter of the National Railway Historical Society. The Winter Garden Heritage Foundation provides the funding 
-          for the daily operationand the Museum host Monday through Friday. Chapter members serve as host on Saturdays and Sundays. The Museum 
+          for the daily operation and the Museum host Monday through Friday. Chapter members serve as host on Saturdays and Sundays. The Museum 
           hours are 1:00 PM to 5:00 PM. The Museum is closed on select holidays.
         </p>
         <p>
@@ -135,6 +135,27 @@ const MuseumHistory = () => {
         <p>
           On September 28, 2016, Society members officially began the expansion of the Central Florida Railroad Museum into the Roper Building. 
           Framing work for the library and shop were the first orders of work.
+        </p>
+        <p>
+          The new shop was completed during April 2017 and most all of the shop items stored in other areas of the complex were relocated to the new shop.
+        </p>
+        <p>
+          The task of moving all books from the old library to the new library was completed during July 2017. At this time, the new library was 
+          complete, with the exception of the installation of carpet.
+        </p>
+        <p>
+          The carpeting in the meeting room and library and the laminate flooring in the refreshments area of the new meeting room was installed 
+          on March 26, 2018.
+        </p>
+        <p>
+          Society members completed the new meeting room in early April 2018. The Society’s first monthly meeting in the new meeting room took 
+          place on April 9, 2018.
+        </p>
+        <p>
+          Frank Chase, our contractor for the conversion of the former breezeway, began demolition on April 10, 2018. On April 18, 2018, Society 
+          members began the demolition of the old library to allow for expanding the museum display area in the former freight room of the depot. 
+          The conversions of the breezeway and the old library area were completed on August 16, 2018 and display items were placed in both areas 
+          on August 18, 2018. Both areas were officially opened to the public on August 18, 2018.
         </p>
         <p>
           Over the years, the Society and the Central Florida Railroad Museum has been involved in a number of activities that include being a 
