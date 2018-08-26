@@ -90,9 +90,9 @@ nav {
   width: 800px;
 }
 
-.calendar {
-  padding: 15px;
-  text-align: center;
+.calendar,
+.donate {
+  margin-top: 15px;
 }
 
 .mission,
@@ -108,7 +108,8 @@ nav {
   .meetings {
     margin-top: 30px;
   }
-  .calendar {
+  .calendar,
+  .donate {
     padding: 20px;
   }
 }
@@ -119,10 +120,26 @@ nav {
 @media screen and (min-width: 769px) {
   .mission,
   .meetings {
-    margin-top: 50px;
+    margin-top: 28px;
   }
   .calendar {
-    padding: 30px;
+    padding: 5px;
+  }
+  .donate {
+    padding: 10px;
+  }
+}
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 1600px) {
+  .mission,
+  .meetings {
+    margin-top: 40px;
+  }
+  .calendar {
+    padding: 15px;
   }
 }
 
