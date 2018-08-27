@@ -16,14 +16,15 @@ const NavBar = () => {
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <NavLink activeClassName="selected" className="dropdown-item" to="/history">Our History</NavLink>
               <NavLink activeClassName="selected" className="dropdown-item" to="/board">Board of Directors</NavLink>
-              <NavLink activeClassName="selected" className="dropdown-item" to="/membership">Society Membership</NavLink>
+              {/* <NavLink activeClassName="selected" className="dropdown-item" to="/membership">Society Membership</NavLink> */}
             </div>
           </div>
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/museum">Museum</NavLink>
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/gallery">Gallery</NavLink>
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/shop">Gift Shop</NavLink>
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/newsletter">Newsletter</NavLink>
-          <NavLink activeClassName="selected" className="nav-item nav-link" to="/links">Links</NavLink>
+          {/* <NavLink activeClassName="selected" className="nav-item nav-link" to="/links">Links</NavLink> */}
+          <NavLink activeClassName="selected" className="nav-item nav-link" to="/membership">Membership</NavLink>
           <NavLink activeClassName="selected" className="nav-item nav-link" to="/contact">Contact</NavLink>
         </div>
         <div className="navbar-brand my-auto">

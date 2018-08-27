@@ -29,12 +29,13 @@ const FooterUpper = () => {
             <Link to="/">Home</Link><br/>
             <Link to="/history">Our History</Link><br/>
             <Link to="/board">Board of Directors</Link><br/>
-            <Link to="/membership">Society Membership</Link><br/>
+            {/* <Link to="/membership">Society Membership</Link><br/> */}
             <Link to="/museum">Museum</Link><br/>
             <Link to="/gallery">Gallery</Link><br/>
             <Link to="/shop">Gift Shop</Link><br/>
             <Link to="/newsletter">Newsletter</Link><br/>
-            <Link to="/links">Links</Link><br/>
+            {/* <Link to="/links">Links</Link><br/> */}
+            <Link to="/membership">Membership</Link><br/>
             <Link to="/contact">Contact</Link><br/>
           </p>
         </div>
