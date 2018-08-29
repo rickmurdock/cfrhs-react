@@ -37,7 +37,7 @@ const Membership = () => {
             })}
           </div>
           <div className="membership-form">
-            <a href="https://drive.google.com/file/d/14B0OmkMgbt5z-vmtLQGbLS1xomQPfJ4r/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o fa-2x pdf" aria-hidden="true"></i>&nbsp;CFRHS Membership Application</a>
+            <a href="https://drive.google.com/file/d/1mAnkgOOwHunJv2ucGly57gLjVtlMOjaQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fa fa-file-pdf-o fa-2x pdf" aria-hidden="true"></i>&nbsp;CFRHS Membership Application</a>
           </div>
         </div>
       </div>
