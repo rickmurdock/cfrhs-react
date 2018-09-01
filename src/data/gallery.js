@@ -1,7 +1,7 @@
 const gallery = [
   {
     imageName: "Caboose.jpg",
-    caption: "Behind the Central Florida Railroad Museum is a Clinchfield caboose, which is available for exploring.",
+    caption: "Behind the Central Florida Railroad Museum is a Clinchfield caboose.",
     type: "",
   },
   {
