@@ -7,7 +7,7 @@ const contacts = [
   },
   {
     position: "Vice President - Membership & Programs",
-    name: "Phil Piet",
+    name: "Mike Forrester",
     email: "vpmembership@cfrhs.org",
     board: true
   },
@@ -25,7 +25,7 @@ const contacts = [
   },
   {
     position: "Assistant Secretary",
-    name: "Mike Ryan",
+    name: "Bill Puckett",
     email: "asstsecretary@cfrhs.org",
     board: true
   },
