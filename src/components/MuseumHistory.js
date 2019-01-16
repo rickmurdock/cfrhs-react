@@ -158,7 +158,7 @@ const MuseumHistory = () => {
           on August 18, 2018. Both areas were officially opened to the public on August 18, 2018.
         </p>
         <p>
-          Over the years, the Society and the Central Florida Railroad Museum has been involved in a number of activities that include being a 
+          Over the years, the Society and the Central Florida Railroad Museum have been involved in a number of activities that include being a 
           Partner-In-Education with Lakeville Elementary School in Apopka, Florida; sponsoring model train and railroadiana shows; setting up 
           and manning exhibits at the Central Florida and Lake County Fairs; hosting North American Rail Car Operator Association motor car 
           visits to Winter Garden and the Central Florida Railroad Museum; hosting annual meetings of the Florida Chapter of the Morse Telegraph 
