@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TitleBar = () => {
   return (
@@ -6,7 +7,9 @@ const TitleBar = () => {
       <div className="row align-items-center">
         <div className="col-sm-12 col-md-4 col-lg-3">
           <div className="container p-0 text-center">
-            <img className="logo img-fluid" src={require('../images/CFRHSLogoSmall.JPG')} width="350" alt="Central Florida Railway Historical Society Logo"/>
+            <Link to="/">
+              <img className="logo img-fluid" src={require('../images/CFRHSLogoSmall.JPG')} width="350" alt="Central Florida Railway Historical Society Logo"/>
+            </Link>
           </div>
         </div>
         <div className="col-sm-12 col-md-8 col-lg-6">
