@@ -11,7 +11,7 @@ import Contact from './Contact';
 import Gallery from './Gallery';
 import History from './History';
 import Home from './Home';
-import Links from './Links';
+// import Links from './Links';
 import Museum from './Museum';
 import Membership from './Membership';
 import Newsletter from './Newsletter';
@@ -27,7 +27,7 @@ class App extends Component {
             <Route path="/contact" component={Contact} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/history" component={History} />
-            <Route path="/links" component={Links} />
+            {/* <Route path="/links" component={Links} /> */}
             <Route path="/museum" component={Museum} />
             <Route path="/membership" component={Membership} />
             <Route path="/newsletter" component={Newsletter} />
